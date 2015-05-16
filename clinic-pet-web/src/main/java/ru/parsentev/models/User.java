@@ -2,7 +2,10 @@ package ru.parsentev.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.Setter;
+
+import javax.management.relation.Role;
+
+import java.util.List;
 
 /**
  * TODO: comment
@@ -12,13 +15,14 @@ import lombok.Setter;
 
 @Data
 @AllArgsConstructor
-public class User {
-	private int id;
-	private String login;
-	private String firstName;
-	private String lastName;
-	private String sex;
-	private String phone;
-	private String email;
-
+public class User extends Base {
+    private int id;
+    private String login;
+    private String firstName;
+    private String lastName;
+    private String sex;
+    private String phone;
+    private String email;
+    private Role role;
+    private List<Message> messages;
 }
