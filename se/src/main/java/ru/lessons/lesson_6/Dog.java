@@ -13,6 +13,10 @@ public class Dog implements Pet {
 		this.animal = animal;
 	}
 
+	public int getId() {
+		return 0;
+	}
+
 	public String getName() {
 		return this.animal.getName();
 	}

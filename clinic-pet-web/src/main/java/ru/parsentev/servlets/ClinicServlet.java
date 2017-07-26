@@ -2,8 +2,8 @@ package ru.parsentev.servlets;
 
 
 import ru.lessons.lesson_6.Animal;
-import ru.lessons.lesson_6.Dog;
 import ru.lessons.lesson_6.Pet;
+import ru.parsentev.models.Dog;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -22,8 +22,8 @@ import java.util.concurrent.CopyOnWriteArrayList;
  */
 public class ClinicServlet extends HttpServlet {
 
-    final List<Pet> pets = new CopyOnWriteArrayList<Pet>();
-    String searchName;
+    private final List<Pet> pets = new CopyOnWriteArrayList<Pet>();
+    private String searchName;
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -36,7 +36,7 @@ public class ClinicServlet extends HttpServlet {
                         "     <title>Clinic Pets</title>" +
                         "</head>" +
                         "<body>" +
-                        "     <form action='" + req.getContextPath() + "/' method='post'>" +
+                        "     <form action='" + req.getContextPath() + "/clinic' method='post'>" +
                         "         Name : <input type='text' name='name'>" +
                         "         Owner : <input type='text' name='owner'>" +
                         "         <input type='submit' name='add' value='Submit'>" +
@@ -45,7 +45,7 @@ public class ClinicServlet extends HttpServlet {
                         "<br>" +
                         "<br>" +
                         "<br>" +
-                        "     <form action='" + req.getContextPath() + "/' method='post'>" +
+                        "     <form action='" + req.getContextPath() + "/clinic' method='post'>" +
                         "         Owner : <input type='text' name='searchOwner'>" +
                         "         <input type='submit' name='search' value='Submit'>" +
                         "     <form>" +
@@ -58,8 +58,16 @@ public class ClinicServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
+        int maxId = 0;
+        for (Pet pet : this.pets) {
+            if (maxId < pet.getId()) {
+                maxId = pet.getId();
+            }
+        }
+
         if (req.getParameter("add") != null && req.getParameter("add").equals("Submit")) {
-            this.pets.add(new Dog(new Animal(req.getParameter("name"), req.getParameter("owner"))));
+            this.pets.add(new Dog(new Animal(++maxId, req.getParameter("name"), req.getParameter("owner"))));
         } else {
             this.searchName = req.getParameter("searchOwner");
         }
@@ -70,9 +78,10 @@ public class ClinicServlet extends HttpServlet {
         StringBuilder sb = new StringBuilder();
         sb.append("<p>Pets</p>");
         sb.append("<table style='border : 1px solid black'>");
-        sb.append("<tr><td style='border : 1px solid black'>Name</td><td style='border : 1px solid black'>Owner</td></tr>");
+        sb.append("<tr><td style='border : 1px solid black'>ID</td><td style='border : 1px solid black'>Name</td><td style='border : 1px solid black'>Owner</td></tr>");
         for (Pet pet : this.pets) {
             sb.append("<tr>")
+                    .append("<td style='border : 1px solid black'>").append(pet.getId()).append("</td>")
                     .append("<td style='border : 1px solid black'>").append(pet.getName()).append("</td>")
                     .append("<td style='border : 1px solid black'>").append(pet.getOwner()).append("</td>")
                     .append("</tr>");
@@ -85,10 +94,11 @@ public class ClinicServlet extends HttpServlet {
         StringBuilder sb = new StringBuilder();
         sb.append("<p>Search results</p>");
         sb.append("<table style='border : 1px solid black'>");
-        sb.append("<tr><td style='border : 1px solid black'>Name</td><td style='border : 1px solid black'>Owner</td></tr>");
+        sb.append("<tr><td style='border : 1px solid black'>ID</td><td style='border : 1px solid black'>Name</td><td style='border : 1px solid black'>Owner</td></tr>");
         for (Pet pet : pets) {
             if (pet.getOwner().equals(owner)) {
                 sb.append("<tr>")
+                        .append("<td style='border : 1px solid black'>").append(pet.getId()).append("</td>")
                         .append("<td style='border : 1px solid black'>").append(pet.getName()).append("</td>")
                         .append("<td style='border : 1px solid black'>").append(pet.getOwner()).append("</td>")
                         .append("</tr>");

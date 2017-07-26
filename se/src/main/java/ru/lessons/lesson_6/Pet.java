@@ -6,6 +6,7 @@ package ru.lessons.lesson_6;
  * @since 16.04.2015
  */
 public interface Pet {
+	int getId();
 	String getName();
 	String getOwner();
 }
