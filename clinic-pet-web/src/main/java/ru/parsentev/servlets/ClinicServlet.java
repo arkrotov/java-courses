@@ -16,49 +16,85 @@ import java.util.concurrent.CopyOnWriteArrayList;
 
 /**
  * TODO: comment
+ *
  * @author parsentev
  * @since 16.04.2015
  */
 public class ClinicServlet extends HttpServlet {
 
-	final List<Pet> pets = new CopyOnWriteArrayList<Pet>();
+    final List<Pet> pets = new CopyOnWriteArrayList<Pet>();
+    String searchName;
 
-	@Override
-	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		resp.setContentType("text/html");
-		PrintWriter writer = resp.getWriter();
-		writer.append(
-				"<!DOCTYPE html>" +
-				"<html>" +
-				"<head>" +
-				"     <title>Clinic Pets</title>" +
-				"</head>" +
-				"<body>" +
-				"     <form action='"+req.getContextPath()+"/' method='post'>" +
-				"         Name : <input type='text' name='name'>"+
-				"         <input type='submit' value='Submit'>"+
-				"     <form>"+
-				this.viewPets() +
-				"</body>" +
-				"</html>"
-		);
-		writer.flush();
-	}
+    @Override
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        resp.setContentType("text/html");
+        PrintWriter writer = resp.getWriter();
+        writer.append(
+                "<!DOCTYPE html>" +
+                        "<html>" +
+                        "<head>" +
+                        "     <title>Clinic Pets</title>" +
+                        "</head>" +
+                        "<body>" +
+                        "     <form action='" + req.getContextPath() + "/' method='post'>" +
+                        "         Name : <input type='text' name='name'>" +
+                        "         Owner : <input type='text' name='owner'>" +
+                        "         <input type='submit' name='add' value='Submit'>" +
+                        "     <form>" +
+                        this.viewPets() +
+                        "<br>" +
+                        "<br>" +
+                        "<br>" +
+                        "     <form action='" + req.getContextPath() + "/' method='post'>" +
+                        "         Owner : <input type='text' name='searchOwner'>" +
+                        "         <input type='submit' name='search' value='Submit'>" +
+                        "     <form>" +
+                        this.searchPet(searchName) +
+                        "</body>" +
+                        "</html>"
+        );
+        writer.flush();
+    }
 
-	@Override
-	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		this.pets.add(new Dog(new Animal(req.getParameter("name"))));
-		doGet(req, resp);
-	}
+    @Override
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        if (req.getParameter("add") != null && req.getParameter("add").equals("Submit")) {
+            this.pets.add(new Dog(new Animal(req.getParameter("name"), req.getParameter("owner"))));
+        } else {
+            this.searchName = req.getParameter("searchOwner");
+        }
+        doGet(req, resp);
+    }
 
-	private String viewPets() {
-		StringBuilder sb = new StringBuilder();
-		sb.append("<p>Pets</p>");
-		sb.append("<table style='border : 1px solid black'>");
-		for (Pet pet : this.pets) {
-			sb.append("<tr><td style='border : 1px solid black'>").append(pet.getName()).append("</td></tr>");
-		}
-		sb.append("</table>");
-		return sb.toString();
-	}
+    private String viewPets() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("<p>Pets</p>");
+        sb.append("<table style='border : 1px solid black'>");
+        sb.append("<tr><td style='border : 1px solid black'>Name</td><td style='border : 1px solid black'>Owner</td></tr>");
+        for (Pet pet : this.pets) {
+            sb.append("<tr>")
+                    .append("<td style='border : 1px solid black'>").append(pet.getName()).append("</td>")
+                    .append("<td style='border : 1px solid black'>").append(pet.getOwner()).append("</td>")
+                    .append("</tr>");
+        }
+        sb.append("</table>");
+        return sb.toString();
+    }
+
+    private String searchPet(String owner) {
+        StringBuilder sb = new StringBuilder();
+        sb.append("<p>Search results</p>");
+        sb.append("<table style='border : 1px solid black'>");
+        sb.append("<tr><td style='border : 1px solid black'>Name</td><td style='border : 1px solid black'>Owner</td></tr>");
+        for (Pet pet : pets) {
+            if (pet.getOwner().equals(owner)) {
+                sb.append("<tr>")
+                        .append("<td style='border : 1px solid black'>").append(pet.getName()).append("</td>")
+                        .append("<td style='border : 1px solid black'>").append(pet.getOwner()).append("</td>")
+                        .append("</tr>");
+            }
+        }
+        sb.append("</table>");
+        return sb.toString();
+    }
 }

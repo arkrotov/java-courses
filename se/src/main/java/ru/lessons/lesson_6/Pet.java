@@ -7,4 +7,5 @@ package ru.lessons.lesson_6;
  */
 public interface Pet {
 	String getName();
+	String getOwner();
 }
