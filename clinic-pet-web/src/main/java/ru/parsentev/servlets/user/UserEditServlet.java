@@ -1,4 +1,4 @@
-package ru.parsentev.servlets;
+package ru.parsentev.servlets.user;
 
 import ru.parsentev.models.User;
 import ru.parsentev.store.UserCache;
@@ -16,15 +16,22 @@ import java.util.concurrent.atomic.AtomicInteger;
  * @author parsentev
  * @since 17.04.2015
  */
-public class UserCreateServlet extends HttpServlet {
+public class UserEditServlet extends HttpServlet {
 
 	final AtomicInteger ids = new AtomicInteger();
 
 	private final UserCache USER_CACHE = UserCache.getInstance();
 
 	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		req.setAttribute("user", this.USER_CACHE.get(Integer.valueOf(req.getParameter("id"))));
+		RequestDispatcher dispatcher = req.getRequestDispatcher("/views/user/EditUser.jsp");
+		dispatcher.forward(req, resp);
+	}
+
+	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		this.USER_CACHE.add(new User(this.ids.incrementAndGet(), req.getParameter("login"), req.getParameter("email")));
+		this.USER_CACHE.edit(new User(this.ids.incrementAndGet(), req.getParameter("login"), req.getParameter("email")));
 		resp.sendRedirect(String.format("%s%s", req.getContextPath(), "/user/view"));
 	}
 }

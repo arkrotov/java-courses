@@ -8,7 +8,7 @@
 
 	<servlet>
 		<servlet-name>ClinicServlet</servlet-name>
-		<servlet-class>ru.parsentev.servlets.ClinicServlet</servlet-class>
+		<servlet-class>ru.parsentev.servlets.pet.ClinicServlet</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
@@ -18,7 +18,7 @@
 
 	<servlet>
 		<servlet-name>UserViewServlet</servlet-name>
-		<servlet-class>ru.parsentev.servlets.UserViewServlet</servlet-class>
+		<servlet-class>ru.parsentev.servlets.user.UserViewServlet</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
@@ -28,7 +28,7 @@
 
 	<servlet>
 		<servlet-name>UserCreateServlet</servlet-name>
-		<servlet-class>ru.parsentev.servlets.UserCreateServlet</servlet-class>
+		<servlet-class>ru.parsentev.servlets.user.UserCreateServlet</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
@@ -38,7 +38,7 @@
 
 	<servlet>
 		<servlet-name>UserEditServlet</servlet-name>
-		<servlet-class>ru.parsentev.servlets.UserEditServlet</servlet-class>
+		<servlet-class>ru.parsentev.servlets.user.UserEditServlet</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
@@ -48,7 +48,7 @@
 
 	<servlet>
 		<servlet-name>UserDeleteServlet</servlet-name>
-		<servlet-class>ru.parsentev.servlets.UserDeleteServlet</servlet-class>
+		<servlet-class>ru.parsentev.servlets.user.UserDeleteServlet</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
@@ -58,11 +58,52 @@
 
 	<servlet>
 		<servlet-name>PetViewServlet</servlet-name>
-		<servlet-class>ru.parsentev.servlets.PetViewServlet</servlet-class>
+		<servlet-class>ru.parsentev.servlets.pet.PetViewServlet</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
 		<servlet-name>PetViewServlet</servlet-name>
 		<url-pattern>/pet/view</url-pattern>
 	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>PetCreateServlet</servlet-name>
+		<servlet-class>ru.parsentev.servlets.pet.PetCreateServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>PetCreateServlet</servlet-name>
+		<url-pattern>/pet/create</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>PetEditServlet</servlet-name>
+		<servlet-class>ru.parsentev.servlets.pet.PetEditServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>PetEditServlet</servlet-name>
+		<url-pattern>/pet/edit</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>PetDeleteServlet</servlet-name>
+		<servlet-class>ru.parsentev.servlets.pet.PetDeleteServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>PetDeleteServlet</servlet-name>
+		<url-pattern>/pet/delete</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>PetSearchServlet</servlet-name>
+		<servlet-class>ru.parsentev.servlets.pet.PetSearchServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>PetSearchServlet</servlet-name>
+		<url-pattern>/pet/search</url-pattern>
+	</servlet-mapping>
+
 </web-app>     

@@ -1,4 +1,4 @@
-package ru.parsentev.servlets;
+package ru.parsentev.servlets.pet;
 
 
 import ru.lessons.lesson_6.Animal;
