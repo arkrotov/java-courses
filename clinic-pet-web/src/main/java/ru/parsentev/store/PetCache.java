@@ -64,4 +64,8 @@ public class PetCache {
     public void setOwner(String owner) {
         this.owner = owner;
     }
+
+    public void clear () {
+        this.pets.clear();
+    }
 }

@@ -7,16 +7,6 @@
 	<display-name>ClinicPet</display-name>
 
 	<servlet>
-		<servlet-name>ClinicServlet</servlet-name>
-		<servlet-class>ru.parsentev.servlets.pet.ClinicServlet</servlet-class>
-	</servlet>
-
-	<servlet-mapping>
-		<servlet-name>ClinicServlet</servlet-name>
-		<url-pattern>/clinic</url-pattern>
-	</servlet-mapping>
-
-	<servlet>
 		<servlet-name>UserViewServlet</servlet-name>
 		<servlet-class>ru.parsentev.servlets.user.UserViewServlet</servlet-class>
 	</servlet>

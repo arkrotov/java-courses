@@ -18,7 +18,6 @@ public class PetEditServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         req.setAttribute("pet", this.PET_CACHE.get(Integer.parseInt(req.getParameter("id"))));
-        System.out.println(this.PET_CACHE.get(Integer.parseInt(req.getParameter("id"))));
         RequestDispatcher dispatcher = req.getRequestDispatcher("/views/pet/EditPet.jsp");
         dispatcher.forward(req, resp);
     }

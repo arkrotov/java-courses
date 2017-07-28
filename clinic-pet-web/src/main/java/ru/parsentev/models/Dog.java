@@ -23,4 +23,18 @@ public class Dog implements Pet{
         return this.animal.getOwner();
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Dog dog = (Dog) o;
+
+        return animal.equals(dog.animal);
+    }
+
+    @Override
+    public int hashCode() {
+        return animal.hashCode();
+    }
 }

@@ -30,5 +30,23 @@ public class Animal implements Pet {
 		return owner;
 	}
 
+	@Override
+	public boolean equals(Object o) {
+		if (this == o) return true;
+		if (o == null || getClass() != o.getClass()) return false;
 
+		Animal animal = (Animal) o;
+
+		if (id != animal.id) return false;
+		if (!name.equals(animal.name)) return false;
+		return owner.equals(animal.owner);
+	}
+
+	@Override
+	public int hashCode() {
+		int result = id;
+		result = 31 * result + name.hashCode();
+		result = 31 * result + owner.hashCode();
+		return result;
+	}
 }

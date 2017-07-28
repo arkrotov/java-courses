@@ -16,6 +16,7 @@
           </element>
           <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.1" />
           <element id="library" level="project" name="Maven: org.codehaus.plexus:plexus-utils:1.1" />
+          <element id="library" level="project" name="Maven: org.mockito:mockito-all:1.10.19" />
         </element>
       </element>
       <element id="directory" name="META-INF">
