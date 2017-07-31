@@ -10,12 +10,14 @@ public class Animal implements Pet {
 	private final int id;
 	private final String name;
 	private final String owner;
+	private final boolean sex;
 
 
-	public Animal(int id, String name, String owner) {
+	public Animal(int id, String name, String owner, boolean sex) {
 		this.id = id;
 		this.name = name;
 		this.owner = owner;
+		this.sex = sex;
 	}
 
 	public int getId() {
@@ -28,6 +30,10 @@ public class Animal implements Pet {
 
 	public String getOwner() {
 		return owner;
+	}
+
+	public Boolean isMale() {
+		return sex;
 	}
 
 	@Override

@@ -11,6 +11,11 @@ public class Dog implements Pet{
         this.animal = animal;
     }
 
+    @Override
+    public Boolean isMale() {
+        return animal.isMale();
+    }
+
     public int getId() {
         return animal.getId();
     }

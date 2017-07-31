@@ -25,7 +25,17 @@ public class PetEditServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        this.PET_CACHE.edit(new Dog(new Animal(Integer.parseInt(req.getParameter("id")), req.getParameter("name"), req.getParameter("owner"))));
+        this.PET_CACHE.edit(
+                new Dog(
+                        new Animal(
+                                Integer.parseInt(req.getParameter("id")),
+                                req.getParameter("name"),
+                                req.getParameter("owner"),
+                                Boolean.getBoolean(req.getParameter("sex")
+                                )
+                        )
+                )
+        );
         resp.sendRedirect(String.format("%s%s", req.getContextPath(), "/pet/view"));
     }
 }

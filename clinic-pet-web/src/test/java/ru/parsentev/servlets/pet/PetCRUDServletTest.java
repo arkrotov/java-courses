@@ -43,7 +43,7 @@ public class PetCRUDServletTest extends Mockito {
     public void deletePet() throws ServletException, IOException {
 
         final PetCache cache = PetCache.getInstance();
-        cache.add(new Dog(new Animal(1, "test", "test")));
+        cache.add(new Dog(new Animal(1, "test", "test", true)));
 
         HttpServletRequest request = mock(HttpServletRequest.class);
         HttpServletResponse response = mock(HttpServletResponse.class);
@@ -64,7 +64,7 @@ public class PetCRUDServletTest extends Mockito {
         final PetCache cache = PetCache.getInstance();
 
         int id = 1;
-        Dog dog = new Dog(new Animal(id, "test", "test"));
+        Dog dog = new Dog(new Animal(id, "test", "test", true));
         cache.add(dog);
 
         HttpServletRequest request = mock(HttpServletRequest.class);
