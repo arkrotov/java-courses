@@ -55,4 +55,8 @@ public class Animal implements Pet {
 		result = 31 * result + owner.hashCode();
 		return result;
 	}
+
+	public String getSex() {
+		return sex? "Male" : "Female";
+	}
 }

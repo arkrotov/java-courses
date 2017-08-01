@@ -11,5 +11,6 @@ public interface Pet {
 	int getId();
 	String getName();
 	String getOwner();
+	public String getSex();
 
 }

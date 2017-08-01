@@ -5,6 +5,7 @@ import ru.lessons.lesson_6.Pet;
 import java.util.Collection;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * TODO: comment
@@ -12,9 +13,9 @@ import java.util.concurrent.ConcurrentHashMap;
  * @since 18.04.2015
  */
 public class PetCache {
-    
-    private static final PetCache INSTANCE = new PetCache();
 
+    private static final PetCache INSTANCE = new PetCache();
+    private final AtomicInteger ids = new AtomicInteger();
     private final ConcurrentHashMap<Integer, Pet> pets = new ConcurrentHashMap<Integer, Pet>();
     private String owner;
 
@@ -39,6 +40,10 @@ public class PetCache {
         }
 
         return pets.values();
+    }
+
+    public int generateId() {
+        return this.ids.incrementAndGet();
     }
 
     public void add(final Pet pet) {

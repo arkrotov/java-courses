@@ -1,82 +1,71 @@
 $(document).ready(function () {
 
-    $('.btn-submit').click(function (e) {
+        $('.btn-submit').click(function (e) {
 
-        // Declare the function variables:
-        // Parent form, form URL, email regex and the error HTML
-        var $formId = $(this).parents('form');
-        var formAction = $formId.attr('action');
-        var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
-        var $error = $('<span class="error"></span>');
+            var $formId = $(this).parents('form');
+            var formAction = $formId.attr('action');
+            var $error = $('<span class="error"></span>');
 
-        // Prepare the form for validation - remove previous errors
-        $('li', $formId).removeClass('error');
-        $('span.error').remove();
+            $('li', $formId).removeClass('error');
+            $('span.error').remove();
 
-        // Validate all inputs with the class "required"
-        $('.required', $formId).each(function () {
-            var inputVal = $(this).val();
-            var $parentTag = $(this).parent();
-            if (inputVal == '') {
-                $parentTag.addClass('error').append($error.clone().text('Required Field'));
-            }
 
-            // Run the email validation using the regex for those input items also having class "email"
-            if ($(this).hasClass('email') == true) {
-                if (!emailReg.test(inputVal)) {
-                    $parentTag.addClass('error').append($error.clone().text('Enter valid email'));
+            $('.required', $formId).each(function () {
+                var inputVal = $(this).val();
+                var $parentTag = $(this).parent();
+                if (inputVal == '') {
+                    $parentTag.addClass('error').append($error.clone().text('Required Field'));
                 }
-            }
+            });
 
-            // Check passwords match for inputs with class "password"
-            if ($(this).hasClass('password') == true) {
-                var password1 = $('#password-1').val();
-                var password2 = $('#password-2').val();
-                if (password1 != password2) {
-                    $parentTag.addClass('error').append($error.clone().text('Passwords must match'));
-                }
-            }
-        });
 
-        // All validation complete - Check if any errors exist
-        // If has errors
-        if ($('span.error').length > 0) {
+            if ($('span.error').length > 0) {
+                $('span.error').each(function () {
 
-            $('span.error').each(function () {
+                    var distance = 15;
+                    var width = $(this).outerWidth();
+                    var start = width + distance;
 
-                // Set the distance for the error animation
-                var distance = 5;
-
-                // Get the error dimensions
-                var width = $(this).outerWidth();
-
-                // Calculate starting position
-                var start = width + distance;
-
-                // Set the initial CSS
-                $(this).show().css({
-                    display: 'block',
-                    opacity: 0,
-                    right: -start + 'px'
-                })
-                // Animate the error message
-                    .animate({
-                        right: -width + 'px',
+                    $(this).show().css({
+                        display: 'block',
+                        opacity: 0,
+                        right: -start + 'px'
+                    }).animate({
+                        right: (-width - 8) + 'px',
                         opacity: 1
                     }, 'slow');
+                });
+            } else {
+                createPet();
+            }
+            e.preventDefault();
+        });
 
+        function createPet() {
+            $.ajax('pet/json', {
+                method: 'post',
+                data: JSON.stringify({name: $('#name').val(), owner: $('#owner').val(), sex: $('#sex').val()}),
+                complete: function (data) {
+                    loadPets();
+                }
             });
-        } else {
-            $formId.submit();
         }
-        // Prevent form submission
-        e.preventDefault();
-    });
 
-    // Fade out error message when input field gains focus
-    $('.required').focus(function () {
-        var $parent = $(this).parent();
-        $parent.removeClass('error');
-        $('span.error', $parent).fadeOut();
-    });
-});
+        // TODO: DATA?
+    function loadPets() {
+        $.ajax('pet/json', {
+            method : 'get',
+            success: function(data) {
+                var table = "<table>";
+                table += "<tr><th>Name</th><th>Owner</th><th>Sex</th></tr>"
+                var size = data.length;
+                for (var i=0;i!=size;++i) {
+                    table += "<tr><td>"+data[i].name+"</td><td>"+data[i].owner+"</td><td>"+data[i].sex+"</td></tr>"
+                }
+                table += "</table>"
+                $('#pets').html(table);
+            }
+        });
+    }
+    }
+);

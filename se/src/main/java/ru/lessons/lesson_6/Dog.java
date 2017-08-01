@@ -30,5 +30,10 @@ public class Dog implements Pet {
 		return this.animal.getOwner();
 	}
 
+	public String getSex() {
+		return animal.getSex();
+	}
+
+
 
 }

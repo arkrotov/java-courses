@@ -96,4 +96,14 @@
 		<url-pattern>/pet/search</url-pattern>
 	</servlet-mapping>
 
+	<servlet>
+		<servlet-name>PetCreateJsonServlet</servlet-name>
+		<servlet-class>ru.parsentev.servlets.pet.PetCreateJsonServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>PetCreateJsonServlet</servlet-name>
+		<url-pattern>/pet/json</url-pattern>
+	</servlet-mapping>
+
 </web-app>     

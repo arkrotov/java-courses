@@ -21,7 +21,7 @@ public class PetCreateServlet extends HttpServlet {
         this.PET_CACHE.add(
                 new Dog(
                         new Animal(
-                                this.ids.incrementAndGet(),
+                                PET_CACHE.generateId(),
                                 req.getParameter("name"),
                                 req.getParameter("owner"),
                                 Boolean.getBoolean(req.getParameter("sex")

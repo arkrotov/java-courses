@@ -6,36 +6,7 @@
     <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript">
-        function createUser() {
-            if (validate()) {
-                $('#name').css('background-color', '');
-                $.ajax('user/json', {
-                    method : 'post',
-                    data: JSON.stringify({login : $('#name').val()}),
-                    complete: function(data) {
-                        loadUsers();
-                    }
-                });
-            } else {
-                alert("Заполните поля!");
-            }
-        }
 
-        function loadUsers() {
-            $.ajax('user/json', {
-                method : 'get',
-                success: function(data) {
-                    var table = "<table>";
-                    table += "<tr><th>Имя</th></tr>"
-                    var size = data.length;
-                    for (var i=0;i!=size;++i) {
-                        table += "<tr><td>"+data[i].login+"</td></tr>"
-                    }
-                    table += "</table>"
-                    $('#users').html(table);
-                }
-            });
-        }
 
         function validate() {
             var result = true;

@@ -6,7 +6,7 @@
           content="web design, website development, web application development, print design, database development, ecommerce websites, search engine optimization, packaging design"/>
     <meta name="description" content="Tutorial demo showing how to add jquery animated validation to any form"/>
     <meta name="robots" content="all"/>
-    <title>jQuery Form Validation With Animated Error Messages Demo</title>
+    <title>Registration of pets</title>
     <script type="text/javascript" src="js/jquery-3.2.1.min.js" defer></script>
     <script type="text/JavaScript" src="js/validation-utils.js" defer></script>
     <script type="text/JavaScript" src="js/jquery.formstyler.min.js" defer></script>
@@ -25,33 +25,27 @@
             <h3>Register Now!</h3>
             <ol>
                 <li class="form-row"><label>Name:</label>
-                    <input name="name" type="text" class="text-input required"/>
+                    <input name="name" id="name" type="text" class="text-input required"/>
                 </li>
-                <li class="form-row"><label>Email:</label>
-                    <input name="email" type="text" id="register-email" class="text-input required email"/>
+                <li class="form-row"><label>Owner:</label>
+                    <input name="owner" type="text" id="owner" class="text-input required"/>
                 </li>
-                <li class="form-row"><label>Password:</label>
-                    <input name="password" type="password" id="password-1" class="text-input required password"/>
-                </li>
-                <li class="form-row"><label>Repeat Password:</label>
-                    <input name="password" type="password" id="password-2" class="text-input required password"/>
+                <li class="form-row"><label>Sex:</label>
+                    <div><select name="sex" id="sex">
+                        <option value="">None</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select></div>
                 </li>
                 <li class="button-row">
-                    <input type="image" src="img/btn_sign_up_off.png" alt="Sign Up" value="OK"
-                           class="btn-submit img-swap"/>
-                </li>
-                <li class="">
-                    <div><select name="asasa" id="aasda">
-                        <option value="">Выбор 1</option>
-                        <option value="">Выбор 2</option>
-                        <option value="">Выбор 3</option>
-                        <option value="">Выбор 4</option>
-                        <option value="">Выбор 5</option>
-                    </select></div>
+                    <button type="button" class="btn-submit">CREATE</button>
                 </li>
             </ol>
         </fieldset>
     </form>
+</div>
+
+<div id="pets" class="center">
 
 </div>
 </body>
