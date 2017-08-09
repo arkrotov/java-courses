@@ -6,6 +6,7 @@ import ru.lessons.lesson_6.Animal;
 import ru.parsentev.models.Dog;
 import ru.parsentev.store.PetCache;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -59,7 +60,7 @@ public class PetCRUDServletTest extends Mockito {
     }
 
     @Test
-    public void editPed() throws ServletException, IOException {
+    public void editPet() throws ServletException, IOException {
 
         final PetCache cache = PetCache.getInstance();
 
@@ -85,6 +86,16 @@ public class PetCRUDServletTest extends Mockito {
         cache.clear();
         assertTrue(cache.values().isEmpty());
 
+    }
+
+    @Test
+    public void viewPet ()  throws ServletException, IOException {
+
+        HttpServletRequest request = mock(HttpServletRequest.class);
+        HttpServletResponse response = mock(HttpServletResponse.class);
+        RequestDispatcher mock = mock(RequestDispatcher.class);
+
+        when(request.getParameter("search")).thenReturn("");
     }
 
 }

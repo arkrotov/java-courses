@@ -1,30 +1,24 @@
 package ru.parsentev.models;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.Setter;
+
 /**
  * TODO: comment
  * @author parsentev
  * @since 17.04.2015
  */
+
+@Data
+@AllArgsConstructor
 public class User {
-	private final int id;
-	private final String login;
-	private final String email;
+	private int id;
+	private String login;
+	private String firstName;
+	private String lastName;
+	private String sex;
+	private String phone;
+	private String email;
 
-	public User(final int id, final String login, final String email) {
-		this.id = id;
-		this.login = login;
-		this.email = email;
-	}
-
-	public int getId() {
-		return id;
-	}
-
-	public String getLogin() {
-		return this.login;
-	}
-
-	public String getEmail() {
-		return this.email;
-	}
 }
