@@ -1,165 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94302f24-2cdf-4947-a33b-c34325287961" name="Default" comment="hw 17 in work 2">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb.war" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/WEB-INF/classes/log4j.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/WEB-INF/classes/ru/parsentev/models/Dog.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/WEB-INF/classes/ru/parsentev/models/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/WEB-INF/classes/ru/parsentev/servlets/pet/PetCreateServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/WEB-INF/classes/ru/parsentev/servlets/pet/PetDeleteServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/WEB-INF/classes/ru/parsentev/servlets/pet/PetEditServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/WEB-INF/classes/ru/parsentev/servlets/pet/PetSearchServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/WEB-INF/classes/ru/parsentev/servlets/pet/PetViewServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/WEB-INF/classes/ru/parsentev/servlets/user/UserCreateServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/WEB-INF/classes/ru/parsentev/servlets/user/UserDeleteServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/WEB-INF/classes/ru/parsentev/servlets/user/UserEditServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/WEB-INF/classes/ru/parsentev/servlets/user/UserViewServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/WEB-INF/classes/ru/parsentev/store/PetCache.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/WEB-INF/classes/ru/parsentev/store/UserCache.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/WEB-INF/lib/commons-lang-2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/WEB-INF/lib/commons-logging-1.1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/WEB-INF/lib/log4j-1.2.17.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/WEB-INF/lib/mockito-all-1.10.19.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/WEB-INF/lib/plexus-utils-1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/WEB-INF/lib/se-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/WEB-INF/lib/standard-1.1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/css/jquery.formstyler.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/css/jquery.formstyler.theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/img/arrow_error.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/img/bg_form.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/img/bg_input.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/img/btn_sign_up_off.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/img/btn_sign_up_on.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/index1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/js/core.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/js/jquery-3.2.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/js/jquery.formstyler.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/js/jquery.formstyler.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/js/pet-utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/js/validation-utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/views/pet/CreatePet.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/views/pet/EditPet.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/views/pet/PetView.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/views/user/CreateUser.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/views/user/EditUser.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/views/user/UserView.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/coverafe-reports/jacoco-unit.exec" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco-resources/branchfc.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco-resources/branchnc.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco-resources/branchpc.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco-resources/bundle.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco-resources/class.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco-resources/down.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco-resources/greenbar.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco-resources/group.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco-resources/method.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco-resources/package.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco-resources/prettify.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco-resources/prettify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco-resources/redbar.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco-resources/report.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco-resources/report.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco-resources/session.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco-resources/sort.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco-resources/sort.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco-resources/source.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco-resources/up.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco-sessions.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.parsentev.models/Dog.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.parsentev.models/Dog.java.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.parsentev.models/User.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.parsentev.models/User.java.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.parsentev.models/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.parsentev.models/index.source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.parsentev.servlets.pet/PetCreateServlet.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.parsentev.servlets.pet/PetCreateServlet.java.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.parsentev.servlets.pet/PetDeleteServlet.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.parsentev.servlets.pet/PetDeleteServlet.java.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.parsentev.servlets.pet/PetEditServlet.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.parsentev.servlets.pet/PetEditServlet.java.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.parsentev.servlets.pet/PetSearchServlet.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.parsentev.servlets.pet/PetSearchServlet.java.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.parsentev.servlets.pet/PetViewServlet.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.parsentev.servlets.pet/PetViewServlet.java.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.parsentev.servlets.pet/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.parsentev.servlets.pet/index.source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.parsentev.servlets.user/UserCreateServlet.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.parsentev.servlets.user/UserCreateServlet.java.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.parsentev.servlets.user/UserDeleteServlet.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.parsentev.servlets.user/UserDeleteServlet.java.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.parsentev.servlets.user/UserEditServlet.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.parsentev.servlets.user/UserEditServlet.java.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.parsentev.servlets.user/UserViewServlet.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.parsentev.servlets.user/UserViewServlet.java.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.parsentev.servlets.user/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.parsentev.servlets.user/index.source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.parsentev.store/PetCache.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.parsentev.store/PetCache.java.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.parsentev.store/UserCache.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.parsentev.store/UserCache.java.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.parsentev.store/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.parsentev.store/index.source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/surefire-reports/TEST-ru.parsentev.servlets.pet.PetCRUDServletTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/surefire-reports/TEST-ru.parsentev.servlets.pet.PetSearchServletTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/surefire-reports/ru.parsentev.servlets.pet.PetCRUDServletTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/target/surefire-reports/ru.parsentev.servlets.pet.PetSearchServletTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/se/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/se/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/se/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/se/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/se/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/se/target/se-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/se/target/surefire-reports/TEST-ru.lessons.lesson_10.CollectionTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/se/target/surefire-reports/TEST-ru.lessons.lesson_10.UserTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/se/target/surefire-reports/TEST-ru.lessons.lesson_12.BlockQueueTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/se/target/surefire-reports/TEST-ru.lessons.lesson_12.CounterTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/se/target/surefire-reports/TEST-ru.lessons.lesson_13.BaseActionTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/se/target/surefire-reports/TEST-ru.lessons.lesson_4.CalculatorTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/se/target/surefire-reports/ru.lessons.lesson_10.CollectionTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/se/target/surefire-reports/ru.lessons.lesson_10.UserTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/se/target/surefire-reports/ru.lessons.lesson_12.BlockQueueTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/se/target/surefire-reports/ru.lessons.lesson_12.CounterTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/se/target/surefire-reports/ru.lessons.lesson_13.BaseActionTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/se/target/surefire-reports/ru.lessons.lesson_4.CalculatorTest.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clinic-pet-web/target/classes/ru/parsentev/models/Dog.class" afterPath="$PROJECT_DIR$/clinic-pet-web/target/classes/ru/parsentev/models/Dog.class" />
+    <list default="true" id="94302f24-2cdf-4947-a33b-c34325287961" name="Default" comment="hw 19 done">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clinic-pet-web/sql/schema.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/HibernateStorage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/resources/hibernate.cfg.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/resources/ru/parsentev/models/User.hbm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clinic-pet-web/src/test/java/ru/parsentev/store/HibernateStorageTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clinic-pet-web/target/classes/ru/parsentev/models/User.class" afterPath="$PROJECT_DIR$/clinic-pet-web/target/classes/ru/parsentev/models/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clinic-pet-web/target/classes/ru/parsentev/servlets/pet/PetCreateServlet.class" afterPath="$PROJECT_DIR$/clinic-pet-web/target/classes/ru/parsentev/servlets/pet/PetCreateServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clinic-pet-web/target/classes/ru/parsentev/servlets/user/UserCreateServlet.class" afterPath="$PROJECT_DIR$/clinic-pet-web/target/classes/ru/parsentev/servlets/user/UserCreateServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clinic-pet-web/target/classes/ru/parsentev/servlets/user/UserEditServlet.class" afterPath="$PROJECT_DIR$/clinic-pet-web/target/classes/ru/parsentev/servlets/user/UserEditServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clinic-pet-web/target/classes/ru/parsentev/servlets/user/UserViewServlet.class" afterPath="$PROJECT_DIR$/clinic-pet-web/target/classes/ru/parsentev/servlets/user/UserViewServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clinic-pet-web/target/classes/ru/parsentev/store/PetCache.class" afterPath="$PROJECT_DIR$/clinic-pet-web/target/classes/ru/parsentev/store/PetCache.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clinic-pet-web/target/classes/ru/parsentev/store/UserCache.class" afterPath="$PROJECT_DIR$/clinic-pet-web/target/classes/ru/parsentev/store/UserCache.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clinic-pet-web/target/test-classes/ru/parsentev/servlets/pet/PetCRUDServletTest.class" afterPath="$PROJECT_DIR$/clinic-pet-web/target/test-classes/ru/parsentev/servlets/pet/PetCRUDServletTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/se/target/classes/ru/lessons/lesson_6/Animal.class" afterPath="$PROJECT_DIR$/se/target/classes/ru/lessons/lesson_6/Animal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/se/target/classes/ru/lessons/lesson_6/Dog.class" afterPath="$PROJECT_DIR$/se/target/classes/ru/lessons/lesson_6/Dog.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/se/target/classes/ru/lessons/lesson_6/Pet.class" afterPath="$PROJECT_DIR$/se/target/classes/ru/lessons/lesson_6/Pet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/cpw_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/cpw_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clinic-pet-web/cpw.iml" afterPath="$PROJECT_DIR$/clinic-pet-web/cpw.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clinic-pet-web/pom.xml" afterPath="$PROJECT_DIR$/clinic-pet-web/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/Base.java" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/Base.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/Message.java" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/Message.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/Role.java" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/Role.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/User.java" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/service/Settings.java" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/service/Settings.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/user/UserCreateServlet.java" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/user/UserCreateServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/user/UserEditServlet.java" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/user/UserEditServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/user/UserViewServlet.java" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/user/UserViewServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/JdbcStorage.java" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/JdbcStorage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clinic-pet-web/src/main/resources/parsentev.properties" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/resources/parsentev.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clinic-pet-web/src/test/java/ru/parsentev/servlets/pet/PetCRUDServletTest.java" afterPath="$PROJECT_DIR$/clinic-pet-web/src/test/java/ru/parsentev/servlets/pet/PetCRUDServletTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clinic-pet-web/src/test/java/ru/parsentev/store/JdbcStorageTest.java" afterPath="$PROJECT_DIR$/clinic-pet-web/src/test/java/ru/parsentev/store/JdbcStorageTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clinic-pet-web/target/classes/log4j.properties" afterPath="$PROJECT_DIR$/clinic-pet-web/target/classes/log4j.properties" />
     </list>
     <list id="53d1b292-dcf3-40f0-91e0-2a21cb261069" name="#19 jdbc (cherry picked from commit a3fd1e2)" comment="#19 jdbc&#10;&#10;(cherry picked from commit a3fd1e2)" />
     <ignored path="$PROJECT_DIR$/clinic-pet-web/target/" />
@@ -231,40 +90,43 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Statement.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/sql/Statement.java">
+      <file leaf-file-name="HibernateStorage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/HibernateStorage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="650" column="8" lean-forward="false" selection-start-line="650" selection-start-column="8" selection-end-line="650" selection-end-column="8" />
+            <state relative-caret-position="277">
+              <caret line="54" column="24" lean-forward="false" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JdbcStorage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/JdbcStorage.java">
+      <file leaf-file-name="Session.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/4.3.9.Final/hibernate-core-4.3.9.Final-sources.jar!/org/hibernate/Session.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1579">
-              <caret line="26" column="46" lean-forward="false" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="46" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HibernateStorageTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/test/java/ru/parsentev/store/HibernateStorageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
-                <marker date="1502282701000" expanded="true" signature="1026:1046" ph="SELECT * FRO... client" />
-                <marker date="1502282701000" expanded="true" signature="1865:1980" ph="INSERT INTO client... " />
-                <marker date="1502282701000" expanded="true" signature="2934:2960" ph="UPDATE clien... " />
-                <marker date="1502282701000" expanded="true" signature="2934:3057" ph="UPDATE clien... " />
-                <marker date="1502282701000" expanded="true" signature="3724:3757" ph="DELETE FROM " />
-                <marker date="1502282701000" expanded="true" signature="3735:3757" ph="INSERT INTO client... " />
-                <marker date="1502282701000" expanded="true" signature="4149:4183" ph="SELECT * FRO... client" />
-                <marker date="1502282701000" expanded="true" signature="5196:5234" ph="SELECT * FRO... client" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JdbcStorageTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/test/java/ru/parsentev/store/JdbcStorageTest.java">
+      <file leaf-file-name="User.hbm.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/resources/ru/parsentev/models/User.hbm.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="49" column="42" lean-forward="false" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+            <state relative-caret-position="255">
+              <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -273,8 +135,8 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+            <state relative-caret-position="60">
+              <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -282,13 +144,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Data.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.18/lombok-1.16.18.jar!/lombok/Data.class">
+      <file leaf-file-name="Base.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/Base.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Role.hbm.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/resources/ru/parsentev/models/Role.hbm.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Message.hbm.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/resources/ru/parsentev/models/Message.hbm.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Message.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/Message.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
               <folding>
-                <element signature="e#0#418#0" expanded="true" />
+                <element signature="e#279#280#0" expanded="false" />
+                <element signature="e#297#298#0" expanded="false" />
+                <element signature="e#332#333#0" expanded="false" />
+                <element signature="e#355#356#0" expanded="false" />
+                <element signature="e#383#384#0" expanded="false" />
+                <element signature="e#401#402#0" expanded="false" />
+                <element signature="e#438#439#0" expanded="false" />
+                <element signature="e#461#462#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -302,27 +201,13 @@
         <option value="Jsp File" />
         <option value="Arquillian JUnit Test Class" />
         <option value="JUnit4 Test Class" />
-        <option value="Class" />
         <option value="JavaScript File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>jst</find>
-      <find>search</find>
-      <find>User</find>
-      <find>User user</find>
-      <find>Pet pet</find>
-      <find>status</find>
-      <find>valig</find>
-      <find>ju</find>
-      <find>ru.parsentev:se:jar:1.</find>
-      <find>images</find>
-      <find>bg_in</find>
-      <find>ext-inpu</find>
-      <find>turnintodropdown</find>
-      <find>dropdown</find>
       <find>activetrigger</find>
       <find>1.78</find>
       <find>1.7</find>
@@ -333,8 +218,26 @@
       <find>1.</find>
       <find>1</find>
       <find>final</find>
-      <find>final</find>
+      <find>co</find>
+      <find>con</find>
+      <find>connect</find>
+      <find>connecti</find>
+      <find>connectio</find>
+      <find>connections</find>
+      <find>C3P0ConnectionProvider</find>
+      <find>C3P0ConnectionProvide</find>
+      <find>C3P0ConnectionProvid</find>
+      <find>C3P0ConnectionProvi</find>
+      <find>C3P0ConnectionProv</find>
+      <find>C3P0ConnectionPro</find>
+      <find>C3P0ConnectionPr</find>
+      <find>C3P0ConnectionP</find>
+      <find>C3P0Connection</find>
+      <find>Connection</find>
       <find>get</find>
+      <find>mysq</find>
+      <find>hibernate.connection.provider_class</find>
+      <find>id</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -342,7 +245,11 @@
       <replace>Pet pet</replace>
       <replace>Dog dog</replace>
       <replace>img</replace>
+      <replace>property</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.2.10.Final/hibernate-core-5.2.10.Final.jar</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -366,12 +273,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/webapp/views/user/CreateUser.jsp" />
-        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/UserCreateServlet.java" />
-        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/Pet.java" />
-        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/DogCache.java" />
-        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/ClinicServlet.java" />
-        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/PetViewServlet.java" />
         <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/user/UserViewServlet.java" />
         <option value="$PROJECT_DIR$/clinic-pet-web/src/main/webapp/views/pet/CreatePet.jsp" />
         <option value="$PROJECT_DIR$/clinic-pet-web/src/main/webapp/views/user/EditUser.jsp" />
@@ -410,11 +311,19 @@
         <option value="$PROJECT_DIR$/clinic-pet-web/src/main/resources/parsentev.properties" />
         <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/service/Settings.java" />
         <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/pet/PetCreateJsonServlet.java" />
-        <option value="$PROJECT_DIR$/clinic-pet-web/pom.xml" />
         <option value="$PROJECT_DIR$/clinic-pet-web/src/test/java/ru/parsentev/servlets/pet/PetCRUDServletTest.java" />
-        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/User.java" />
         <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/JdbcStorage.java" />
+        <option value="$PROJECT_DIR$/clinic-pet-web/pom.xml" />
         <option value="$PROJECT_DIR$/clinic-pet-web/src/test/java/ru/parsentev/store/JdbcStorageTest.java" />
+        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/resources/ru/parsentev/models/User.hbm.xml" />
+        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/Role.java" />
+        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/Message.java" />
+        <option value="/Hibernate QL Fragment (HibernateStorage.java:701).hql" />
+        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/HibernateStorage.java" />
+        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/User.java" />
+        <option value="$PROJECT_DIR$/clinic-pet-web/src/test/java/ru/parsentev/store/HibernateStorageTest.java" />
+        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/Base.java" />
       </list>
     </option>
   </component>
@@ -529,6 +438,9 @@
             <id>Abstraction issuesJava</id>
           </State>
           <State>
+            <id>JPA issues</id>
+          </State>
+          <State>
             <id>JSP Inspections</id>
           </State>
           <State>
@@ -552,7 +464,7 @@
         </expanded-state>
         <selected-state>
           <State>
-            <id>Android</id>
+            <id>JpaQlInspection</id>
           </State>
         </selected-state>
       </profile-state>
@@ -577,10 +489,80 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jlessons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jlessons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: org.hibernate:hibernate-c3p0:4.3.9.Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate-c3p0-4.3.9.Final.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blueprint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jlessons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: org.hibernate:hibernate-c3p0:4.3.9.Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate-c3p0-4.3.9.Final.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="internal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jlessons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: org.hibernate:hibernate-c3p0:4.3.9.Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate-c3p0-4.3.9.Final.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="jlessons" />
@@ -841,6 +823,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jlessons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-courses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clinic-pet-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1027,6 +1039,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1077,80 +1091,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JdbcStorageTest">
-    <configuration default="false" name="All in cpw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="cpw" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="JdbcStorageTest.testAddAndDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ru.parsentev.store.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="cpw" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ru.parsentev.store" />
-      <option name="MAIN_CLASS_NAME" value="ru.parsentev.store.JdbcStorageTest" />
-      <option name="METHOD_NAME" value="testAddAndDelete" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="JdbcStorageTest.testAddEditDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ru.parsentev.store.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="cpw" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ru.parsentev.store" />
-      <option name="MAIN_CLASS_NAME" value="ru.parsentev.store.JdbcStorageTest" />
-      <option name="METHOD_NAME" value="testAddEditDelete" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.HibernateStorageTest.testCRUD">
     <configuration default="false" name="JdbcStorageTest.testEdit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1191,6 +1132,84 @@
       <option name="MAIN_CLASS_NAME" value="ru.parsentev.store.JdbcStorageTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="HibernateStorageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ru.parsentev.store.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="cpw" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ru.parsentev.store" />
+      <option name="MAIN_CLASS_NAME" value="ru.parsentev.store.HibernateStorageTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="HibernateStorageTest.testCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ru.parsentev.store.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="cpw" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ru.parsentev.store" />
+      <option name="MAIN_CLASS_NAME" value="ru.parsentev.store.HibernateStorageTest" />
+      <option name="METHOD_NAME" value="testCreate" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="HibernateStorageTest.testCRUD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ru.parsentev.store.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="cpw" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ru.parsentev.store" />
+      <option name="MAIN_CLASS_NAME" value="ru.parsentev.store.HibernateStorageTest" />
+      <option name="METHOD_NAME" value="testCRUD" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -1806,19 +1825,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Server" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.All in cpw" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.JdbcStorageTest.testAddAndDelete" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.JdbcStorageTest.testAddEditDelete" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.JdbcStorageTest.testEdit" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.JdbcStorageTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.JdbcStorageTest.testEdit" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.JdbcStorageTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.HibernateStorageTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.HibernateStorageTest.testCreate" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.HibernateStorageTest.testCRUD" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.JdbcStorageTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.JdbcStorageTest.testEdit" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.JdbcStorageTest.testAddEditDelete" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.JdbcStorageTest.testAddAndDelete" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.All in cpw" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.HibernateStorageTest.testCRUD" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.HibernateStorageTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.HibernateStorageTest.testCreate" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.JdbcStorageTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.JdbcStorageTest.testEdit" />
       </list>
     </recent_temporary>
   </component>
@@ -1840,7 +1859,9 @@
       <workItem from="1501753075983" duration="945000" />
       <workItem from="1502267713915" duration="2231000" />
       <workItem from="1502274888200" duration="79000" />
-      <workItem from="1502275520403" duration="8523000" />
+      <workItem from="1502275520403" duration="10973000" />
+      <workItem from="1502305970925" duration="3101000" />
+      <workItem from="1502359756158" duration="1788000" />
     </task>
     <task id="LOCAL-00001" summary="hw #14 done">
       <created>1500996172200</created>
@@ -1884,43 +1905,64 @@
       <option name="project" value="LOCAL" />
       <updated>1501747524896</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="hw 19 done">
+      <created>1502286765535</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1502286765535</updated>
+    </task>
+    <task id="LOCAL-00008" summary="hw 19 done">
+      <created>1502286856569</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1502286856569</updated>
+    </task>
+    <task id="LOCAL-00009" summary="#20 Hibernate&#10;&#10;(cherry picked from commit cb92774)">
+      <created>1502287379761</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1502287379761</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JdbcStorageTest - 2017.08.09 at 16h 38m 01s.xml">
-      <configuration name="JdbcStorageTest" configurationId="JUnit" />
+    <history-entry file="HibernateStorageTest_testCRUD - 2017.08.10 at 13h 22m 45s.xml">
+      <configuration name="HibernateStorageTest.testCRUD" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JdbcStorageTest - 2017.08.09 at 16h 40m 17s.xml">
-      <configuration name="JdbcStorageTest" configurationId="JUnit" />
+    <history-entry file="HibernateStorageTest_testCRUD - 2017.08.10 at 13h 24m 27s.xml">
+      <configuration name="HibernateStorageTest.testCRUD" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JdbcStorageTest - 2017.08.09 at 16h 41m 01s.xml">
-      <configuration name="JdbcStorageTest" configurationId="JUnit" />
+    <history-entry file="HibernateStorageTest_testCRUD - 2017.08.10 at 13h 27m 46s.xml">
+      <configuration name="HibernateStorageTest.testCRUD" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JdbcStorageTest - 2017.08.09 at 16h 41m 46s.xml">
-      <configuration name="JdbcStorageTest" configurationId="JUnit" />
+    <history-entry file="HibernateStorageTest_testCRUD - 2017.08.10 at 13h 28m 15s.xml">
+      <configuration name="HibernateStorageTest.testCRUD" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JdbcStorageTest - 2017.08.09 at 16h 43m 18s.xml">
-      <configuration name="JdbcStorageTest" configurationId="JUnit" />
+    <history-entry file="HibernateStorageTest_testCRUD - 2017.08.10 at 13h 28m 48s.xml">
+      <configuration name="HibernateStorageTest.testCRUD" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JdbcStorageTest_testAddAndDelete - 2017.08.09 at 15h 02m 36s.xml">
-      <configuration name="JdbcStorageTest.testAddAndDelete" configurationId="JUnit" />
+    <history-entry file="HibernateStorageTest_testCRUD - 2017.08.10 at 13h 29m 21s.xml">
+      <configuration name="HibernateStorageTest.testCRUD" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JdbcStorageTest_testAddAndDelete - 2017.08.09 at 15h 02m 56s.xml">
-      <configuration name="JdbcStorageTest.testAddAndDelete" configurationId="JUnit" />
+    <history-entry file="HibernateStorageTest_testCRUD - 2017.08.10 at 13h 29m 56s.xml">
+      <configuration name="HibernateStorageTest.testCRUD" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JdbcStorageTest_testAddEditDelete - 2017.08.09 at 15h 25m 01s.xml">
-      <configuration name="JdbcStorageTest.testAddEditDelete" configurationId="JUnit" />
+    <history-entry file="HibernateStorageTest_testCRUD - 2017.08.10 at 13h 30m 48s.xml">
+      <configuration name="HibernateStorageTest.testCRUD" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JdbcStorageTest_testAddEditDelete - 2017.08.09 at 15h 25m 05s.xml">
-      <configuration name="JdbcStorageTest.testAddEditDelete" configurationId="JUnit" />
+    <history-entry file="HibernateStorageTest_testCRUD - 2017.08.10 at 13h 31m 29s.xml">
+      <configuration name="HibernateStorageTest.testCRUD" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JdbcStorageTest_testEdit - 2017.08.09 at 16h 37m 51s.xml">
-      <configuration name="JdbcStorageTest.testEdit" configurationId="JUnit" />
+    <history-entry file="HibernateStorageTest_testCRUD - 2017.08.10 at 13h 33m 50s.xml">
+      <configuration name="HibernateStorageTest.testCRUD" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71110000" />
+    <option name="totallyTimeSpent" value="78449000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1938,8 +1980,8 @@
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7230114" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7230114" sideWeight="0.503231" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1948,38 +1990,38 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39914772" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39914772" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="simpleUML" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3877841" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7230114" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27786753" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3877841" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.72159094" sideWeight="0.49676898" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28594506" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7230114" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7230114" sideWeight="0.503231" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1989,19 +2031,19 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39914772" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39914772" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="simpleUML" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3877841" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7230114" sideWeight="0.49676898" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3877841" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.72159094" sideWeight="0.49676898" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27786753" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2049,11 +2091,13 @@
     <MESSAGE value="hw 17 in work" />
     <MESSAGE value="hw 17 in work 2" />
     <MESSAGE value="#19 jdbc&#10;&#10;(cherry picked from commit a3fd1e2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="#19 jdbc&#10;&#10;(cherry picked from commit a3fd1e2)" />
+    <MESSAGE value="hw 19 done" />
+    <MESSAGE value="#20 Hibernate&#10;&#10;(cherry picked from commit cb92774)" />
+    <option name="LAST_COMMIT_MESSAGE" value="#20 Hibernate&#10;&#10;(cherry picked from commit cb92774)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="25" />
+      <option name="time" value="39" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2062,79 +2106,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/se/se.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/pet/PetDeleteServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="12" column="2" lean-forward="false" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/String.java" />
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/pet/PetSearchServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/test/java/ru/parsentev/servlets/pet/PetSearchServletTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/webapp/views/pet/PetView.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/se/src/main/java/ru/lessons/lesson_6/Pet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/se/src/main/java/ru/lessons/lesson_6/Animal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/se/src/main/java/ru/lessons/lesson_6/Dog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/pet/PetCreateServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="23" column="59" lean-forward="true" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/Dog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/user/Test.java" />
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/webapp/js/user-utils.js" />
     <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/webapp/img/btn_sign_up_on.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -2223,7 +2194,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2231,9 +2201,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2241,27 +2208,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#587#588#0" expanded="false" />
-            <element signature="e#618#619#0" expanded="false" />
-            <element signature="e#1153#1154#0" expanded="false" />
-            <element signature="e#1202#1203#0" expanded="false" />
-            <element signature="e#1240#1241#0" expanded="false" />
-            <element signature="e#1287#1288#0" expanded="false" />
-            <element signature="e#1326#1327#0" expanded="false" />
-            <element signature="e#1377#1378#0" expanded="false" />
-            <element signature="e#1417#1418#0" expanded="false" />
-            <element signature="e#1453#1454#0" expanded="false" />
-            <element signature="e#1489#1490#0" expanded="false" />
-            <element signature="e#1529#1530#0" expanded="false" />
-            <element signature="e#1561#1562#0" expanded="false" />
-            <element signature="e#1589#1590#0" expanded="false" />
-            <element signature="e#1631#1632#0" expanded="false" />
-            <element signature="e#1665#1666#0" expanded="false" />
-            <element signature="e#1693#1694#0" expanded="false" />
-            <element signature="e#1726#1727#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2277,19 +2223,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#505#506#0" expanded="false" />
-            <element signature="e#538#539#0" expanded="false" />
-            <element signature="e#698#699#0" expanded="false" />
-            <element signature="e#743#744#0" expanded="false" />
-            <element signature="e#791#792#0" expanded="false" />
-            <element signature="e#819#820#0" expanded="false" />
-            <element signature="e#864#865#0" expanded="false" />
-            <element signature="e#896#897#0" expanded="false" />
-            <element signature="e#1185#1186#0" expanded="false" />
-            <element signature="e#1225#1226#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2297,27 +2230,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#456#457#0" expanded="false" />
-            <element signature="e#478#479#0" expanded="false" />
-            <element signature="e#526#527#0" expanded="false" />
-            <element signature="e#557#558#0" expanded="false" />
-            <element signature="e#604#605#0" expanded="false" />
-            <element signature="e#640#641#0" expanded="false" />
-            <element signature="e#689#690#0" expanded="false" />
-            <element signature="e#719#720#0" expanded="false" />
-            <element signature="e#767#768#0" expanded="false" />
-            <element signature="e#797#798#0" expanded="false" />
-            <element signature="e#842#843#0" expanded="false" />
-            <element signature="e#876#877#0" expanded="false" />
-            <element signature="e#935#936#0" expanded="false" />
-            <element signature="e#980#981#0" expanded="false" />
-            <element signature="e#1019#1020#0" expanded="false" />
-            <element signature="e#1058#1059#0" expanded="false" />
-            <element signature="e#1093#1094#0" expanded="false" />
-            <element signature="e#1120#1121#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2325,9 +2237,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2343,7 +2252,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2351,15 +2259,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
           <caret line="175" column="12" lean-forward="false" selection-start-line="175" selection-start-column="12" selection-end-line="175" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="75" column="21" lean-forward="false" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2367,7 +2266,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2375,15 +2273,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="79">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/resources/parsentev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="46" lean-forward="false" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2391,7 +2280,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="34" column="24" lean-forward="false" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2399,7 +2287,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2407,7 +2294,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2415,7 +2301,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2423,42 +2308,84 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
           <caret line="97" column="60" lean-forward="false" selection-start-line="97" selection-start-column="60" selection-end-line="97" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/sql/Statement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="9405">
           <caret line="650" column="8" lean-forward="false" selection-start-line="650" selection-start-column="8" selection-end-line="650" selection-end-column="8" />
-          <folding />
+          <folding>
+            <element signature="e#0#65869#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.18/lombok-1.16.18.jar!/lombok/Data.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#418#0" expanded="true" />
-          </folding>
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/User.java">
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        <state relative-caret-position="1245">
+          <caret line="83" column="36" lean-forward="false" selection-start-line="83" selection-start-column="36" selection-end-line="83" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/test/java/ru/parsentev/store/JdbcStorageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="28" column="34" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="28" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/resources/parsentev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="48" lean-forward="false" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/sql/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="314" column="0" lean-forward="false" selection-start-line="314" selection-start-column="0" selection-end-line="314" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/JdbcStorage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1579">
-          <caret line="26" column="46" lean-forward="false" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="46" />
+        <state relative-caret-position="-530">
+          <caret line="29" column="40" lean-forward="false" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
           <folding>
             <marker date="1502282701000" expanded="true" signature="1026:1046" ph="SELECT * FRO... client" />
             <marker date="1502282701000" expanded="true" signature="1865:1980" ph="INSERT INTO client... " />
@@ -2472,11 +2399,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/test/java/ru/parsentev/store/JdbcStorageTest.java">
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/resources/ru/parsentev/models/Role.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="49" column="42" lean-forward="false" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/resources/ru/parsentev/models/User.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/resources/ru/parsentev/models/Message.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding>
+            <element signature="e#279#280#0" expanded="false" />
+            <element signature="e#297#298#0" expanded="false" />
+            <element signature="e#332#333#0" expanded="false" />
+            <element signature="e#355#356#0" expanded="false" />
+            <element signature="e#383#384#0" expanded="false" />
+            <element signature="e#401#402#0" expanded="false" />
+            <element signature="e#438#439#0" expanded="false" />
+            <element signature="e#461#462#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/4.3.9.Final/hibernate-core-4.3.9.Final.jar!/org/hibernate/Session.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="78" column="9" lean-forward="false" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/4.3.9.Final/hibernate-core-4.3.9.Final-sources.jar!/org/hibernate/Session.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/HibernateStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="54" column="24" lean-forward="false" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/Base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/test/java/ru/parsentev/store/HibernateStorageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
