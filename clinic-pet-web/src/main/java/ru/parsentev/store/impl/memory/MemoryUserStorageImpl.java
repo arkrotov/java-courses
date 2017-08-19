@@ -1,6 +1,8 @@
-package ru.parsentev.store;
+package ru.parsentev.store.impl.memory;
 
 import ru.parsentev.models.User;
+import ru.parsentev.store.UserStorage;
+
 import java.util.Collection;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -10,7 +12,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * @author parsentev
  * @since 29.04.2015
  */
-public class MemoryStorage implements Storage {
+public class MemoryUserStorageImpl implements UserStorage {
 
 	private final AtomicInteger ids = new AtomicInteger();
 

@@ -3,6 +3,8 @@ package ru.parsentev.models;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.Setter;
 
 /**
  * TODO: comment
@@ -11,17 +13,12 @@ import lombok.EqualsAndHashCode;
  */
 
 
+@Getter
+@Setter
 public class Role extends Base {
 	private String name;
 
 	public Role() {
 	}
 
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
 }

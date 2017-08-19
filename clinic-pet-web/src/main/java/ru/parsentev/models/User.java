@@ -1,13 +1,8 @@
 package ru.parsentev.models;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.EqualsAndHashCode;
-import lombok.ToString;
+import lombok.*;
 
-import javax.management.relation.Role;
-
-import java.util.List;
+import java.util.Set;
 
 /**
  * TODO: comment
@@ -16,6 +11,8 @@ import java.util.List;
  */
 
 @EqualsAndHashCode(callSuper = true)
+@NoArgsConstructor
+@AllArgsConstructor
 @Data
 @ToString(callSuper = true)
 public class User extends Base {
@@ -25,18 +22,10 @@ public class User extends Base {
     private String sex;
     private String phone;
     private String email;
-    //private List<Message> messages;
+    private Set<Message> messages;
+    private Role role;
 
-    public User(Integer id, String login, String firstName, String lastName, String sex, String phone, String email) {
-        this.id = id;
-        this.login = login;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.sex = sex;
-        this.phone = phone;
-        this.email = email;
-    }
+    public User(int i, String login, String firstName, String lastName, String sex, String phone, String email) {
 
-    public User() {
     }
 }

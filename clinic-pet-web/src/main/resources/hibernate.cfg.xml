@@ -20,5 +20,7 @@
 
 		<!-- List of XML mapping files -->
 		<mapping resource="ru/parsentev/models/User.hbm.xml"/>
+		<mapping resource="ru/parsentev/models/Role.hbm.xml"/>
+		<mapping resource="ru/parsentev/models/Message.hbm.xml"/>
 	</session-factory>
 </hibernate-configuration>

@@ -1,8 +1,9 @@
-package ru.parsentev.store;
+package ru.parsentev.store.impl.jdbc;
 
 
 import ru.parsentev.models.User;
 import ru.parsentev.service.Settings;
+import ru.parsentev.store.UserStorage;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -10,9 +11,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.util.ArrayList;
 import java.util.Collection;
-import java.util.List;
 
 /**
  * TODO: comment
@@ -20,10 +19,10 @@ import java.util.List;
  * @author parsentev
  * @since 29.04.2015
  */
-public class JdbcStorage implements Storage {
+public class JdbcUserStorageImpl implements UserStorage {
     private final Connection connection;
 
-    public JdbcStorage() {
+    public JdbcUserStorageImpl() {
         final Settings settings = Settings.getInstance();
         try {
             this.connection = DriverManager.getConnection(
@@ -38,7 +37,7 @@ public class JdbcStorage implements Storage {
 
     @Override
     public Collection<User> values() {
-
+/*
         String sqlQuery = "SELECT * FROM client";
 
         final List<User> users = new ArrayList<>();
@@ -63,6 +62,8 @@ public class JdbcStorage implements Storage {
         }
 
         return users;
+        */
+        return null;
     }
 
     @Override
@@ -134,7 +135,7 @@ public class JdbcStorage implements Storage {
     @Override
     public User get(int id) {
 
-        String sqlQuery = "SELECT * FROM client WHERE uid = ?";
+       /* String sqlQuery = "SELECT * FROM client WHERE uid = ?";
 
         try (final PreparedStatement statement = this.connection.prepareStatement(sqlQuery)) {
             statement.setInt(1, id);
@@ -155,11 +156,14 @@ public class JdbcStorage implements Storage {
             e.printStackTrace();
         }
         throw new IllegalStateException(String.format("User with id = '%s' does not exists", id));
+*/
+
+       return null;
     }
 
     @Override
     public User findByLogin(String login) {
-        try (final PreparedStatement statement = this.connection.prepareStatement("SELECT * FROM client WHERE login = (?)")) {
+      /*  try (final PreparedStatement statement = this.connection.prepareStatement("SELECT * FROM client WHERE login = (?)")) {
             statement.setString(1, login);
             try (final ResultSet rs = statement.executeQuery()) {
                 while (rs.next()) {
@@ -178,6 +182,8 @@ public class JdbcStorage implements Storage {
             e.printStackTrace();
         }
         throw new IllegalStateException(String.format("User with login = '%s' does not exists", login));
+       */
+      return null;
     }
 
     @Deprecated

@@ -1,24 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94302f24-2cdf-4947-a33b-c34325287961" name="Default" comment="hw 19 done">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clinic-pet-web/sql/schema.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/HibernateStorage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/resources/hibernate.cfg.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/resources/ru/parsentev/models/User.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clinic-pet-web/src/test/java/ru/parsentev/store/HibernateStorageTest.java" />
+    <list default="true" id="94302f24-2cdf-4947-a33b-c34325287961" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/role/RoleCreateServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/role/RoleDeleteServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/role/RoleSearchServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/role/RoleUpdateServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/role/RoleViewServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/user/UserSearchServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/PetStorage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/RoleCache.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/RoleStorage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/impl/hibernate/HibernatePetStorageImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/impl/hibernate/HibernateRoleStorageImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/impl/jdbc/JdbcPetStorageImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/impl/jdbc/JdbcRoleStorageImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/impl/memory/MemoryPetStorageImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/impl/memory/MemoryRoleStorageImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clinic-pet-web/src/test/java/ru/parsentev/store/HibernateUserStorageImplTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clinic-pet-web/src/test/java/ru/parsentev/store/HibernateStorageTest.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/HibernateStorage.java" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/impl/hibernate/HibernateUserStorageImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/JdbcStorage.java" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/impl/jdbc/JdbcUserStorageImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/MemoryStorage.java" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/impl/memory/MemoryUserStorageImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/Storage.java" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/UserStorage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/clinic-pet-web/src/test/java/ru/parsentev/store/JdbcStorageTest.java" afterPath="$PROJECT_DIR$/clinic-pet-web/src/test/java/ru/parsentev/store/JdbcUserStorageImplTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clinic-pet-web/target/classes/ru/parsentev/models/User.class" afterPath="$PROJECT_DIR$/clinic-pet-web/target/classes/ru/parsentev/models/User.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clinic-pet-web/target/classes/ru/parsentev/servlets/user/UserCreateServlet.class" afterPath="$PROJECT_DIR$/clinic-pet-web/target/classes/ru/parsentev/servlets/user/UserCreateServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clinic-pet-web/target/classes/ru/parsentev/servlets/user/UserEditServlet.class" afterPath="$PROJECT_DIR$/clinic-pet-web/target/classes/ru/parsentev/servlets/user/UserEditServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/cpw_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/cpw_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clinic-pet-web/target/classes/ru/parsentev/store/UserCache.class" afterPath="$PROJECT_DIR$/clinic-pet-web/target/classes/ru/parsentev/store/UserCache.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clinic-pet-web/cpw.iml" afterPath="$PROJECT_DIR$/clinic-pet-web/cpw.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clinic-pet-web/pom.xml" afterPath="$PROJECT_DIR$/clinic-pet-web/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/Base.java" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/Base.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/Message.java" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/Message.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/Role.java" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/Role.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/User.java" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clinic-pet-web/target/classes/log4j.properties" afterPath="$PROJECT_DIR$/clinic-pet-web/target/classes/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/user/UserCreateServlet.java" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/user/UserCreateServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/user/UserEditServlet.java" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/user/UserEditServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/UserCache.java" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/UserCache.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clinic-pet-web/src/main/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/resources/hibernate.cfg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clinic-pet-web/src/main/resources/ru/parsentev/models/User.hbm.xml" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/resources/ru/parsentev/models/User.hbm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clinic-pet-web/src/main/webapp/views/user/CreateUser.jsp" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/webapp/views/user/CreateUser.jsp" />
     </list>
     <list id="53d1b292-dcf3-40f0-91e0-2a21cb261069" name="#19 jdbc (cherry picked from commit a3fd1e2)" comment="#19 jdbc&#10;&#10;(cherry picked from commit a3fd1e2)" />
     <ignored path="$PROJECT_DIR$/clinic-pet-web/target/" />
@@ -68,127 +87,106 @@
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="18_lesson@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="18_lesson" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="client" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HibernateStorage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/HibernateStorage.java">
+    <leaf>
+      <file leaf-file-name="RoleStorage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/RoleStorage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="54" column="24" lean-forward="false" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+            <state relative-caret-position="75">
+              <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Session.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/4.3.9.Final/hibernate-core-4.3.9.Final-sources.jar!/org/hibernate/Session.java">
+      <file leaf-file-name="RoleCache.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/RoleCache.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="75">
+              <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HibernateStorageTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/test/java/ru/parsentev/store/HibernateStorageTest.java">
+      <file leaf-file-name="HibernatePetStorageImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/impl/hibernate/HibernatePetStorageImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.hbm.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/resources/ru/parsentev/models/User.hbm.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+            <state relative-caret-position="75">
+              <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/User.java">
+      <file leaf-file-name="JdbcPetStorageImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/impl/jdbc/JdbcPetStorageImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Base.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/Base.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+            <state relative-caret-position="75">
+              <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Role.hbm.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/resources/ru/parsentev/models/Role.hbm.xml">
+      <file leaf-file-name="MemoryPetStorageImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/impl/memory/MemoryPetStorageImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="75">
+              <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Message.hbm.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/resources/ru/parsentev/models/Message.hbm.xml">
+      <file leaf-file-name="HibernateRoleStorageImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/impl/hibernate/HibernateRoleStorageImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            <state relative-caret-position="75">
+              <caret line="5" column="37" lean-forward="false" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Message.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/Message.java">
+      <file leaf-file-name="JdbcRoleStorageImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/impl/jdbc/JdbcRoleStorageImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-              <folding>
-                <element signature="e#279#280#0" expanded="false" />
-                <element signature="e#297#298#0" expanded="false" />
-                <element signature="e#332#333#0" expanded="false" />
-                <element signature="e#355#356#0" expanded="false" />
-                <element signature="e#383#384#0" expanded="false" />
-                <element signature="e#401#402#0" expanded="false" />
-                <element signature="e#438#439#0" expanded="false" />
-                <element signature="e#461#462#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MemoryRoleStorageImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/impl/memory/MemoryRoleStorageImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoleSearchServlet.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/role/RoleSearchServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="50" lean-forward="false" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserSearchServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/user/UserSearchServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -202,19 +200,13 @@
         <option value="Arquillian JUnit Test Class" />
         <option value="JUnit4 Test Class" />
         <option value="JavaScript File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>activetrigger</find>
-      <find>1.78</find>
-      <find>1.7</find>
-      <find>1.6</find>
-      <find>1.5</find>
-      <find>1.8</find>
-      <find>1.9</find>
       <find>1.</find>
       <find>1</find>
       <find>final</find>
@@ -238,6 +230,13 @@
       <find>mysq</find>
       <find>hibernate.connection.provider_class</find>
       <find>id</find>
+      <find>cle</find>
+      <find>cli</find>
+      <find>client</find>
+      <find>сзы</find>
+      <find>с</find>
+      <find>http://localhost:8080/cpw/views/user/CreateUser.jsp</find>
+      <find>user/CreateUser.jsp</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -273,21 +272,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/user/UserViewServlet.java" />
-        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/webapp/views/pet/CreatePet.jsp" />
-        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/webapp/views/user/EditUser.jsp" />
-        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/webapp/views/pet/EditPet.jsp" />
-        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/user/UserDeleteServlet.java" />
-        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/pet/PetDeleteServlet.java" />
-        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/pet/PetViewServlet.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/pet/PetSearchServlet.java" />
-        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/webapp/views/pet/PetView.jsp" />
-        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/pet/PetCreateServletTest.java" />
-        <option value="$PROJECT_DIR$/clinic-pet-web/src/test/java/ru/parsentev/servlets/pet/PetCreateServletTest.java" />
-        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/UserCache.java" />
-        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/PetCache.java" />
-        <option value="$PROJECT_DIR$/se/pom.xml" />
         <option value="$PROJECT_DIR$/clinic-pet-web/src/test/java/ru/parsentev/servlets/pet/PetSearchServletTest.java" />
         <option value="$PROJECT_DIR$/clinic-pet-web/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/se/src/main/java/ru/lessons/lesson_6/Pet.java" />
@@ -306,24 +290,39 @@
         <option value="$PROJECT_DIR$/clinic-pet-web/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/clinic-pet-web/src/main/webapp/js/core.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/user/UserCreateServlet.java" />
-        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/user/UserEditServlet.java" />
         <option value="$PROJECT_DIR$/clinic-pet-web/src/main/resources/parsentev.properties" />
         <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/service/Settings.java" />
         <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/pet/PetCreateJsonServlet.java" />
         <option value="$PROJECT_DIR$/clinic-pet-web/src/test/java/ru/parsentev/servlets/pet/PetCRUDServletTest.java" />
-        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/JdbcStorage.java" />
         <option value="$PROJECT_DIR$/clinic-pet-web/pom.xml" />
-        <option value="$PROJECT_DIR$/clinic-pet-web/src/test/java/ru/parsentev/store/JdbcStorageTest.java" />
-        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/resources/ru/parsentev/models/User.hbm.xml" />
-        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/resources/hibernate.cfg.xml" />
+        <option value="/Hibernate QL Fragment (HibernateStorage.java:701).hql" />
+        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/Base.java" />
         <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/Role.java" />
         <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/Message.java" />
-        <option value="/Hibernate QL Fragment (HibernateStorage.java:701).hql" />
+        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/HibernateStorage.java" />
-        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/User.java" />
+        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/JdbcStorage.java" />
+        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/user/UserEditServlet.java" />
+        <option value="$PROJECT_DIR$/clinic-pet-web/src/test/java/ru/parsentev/store/JdbcStorageTest.java" />
+        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/resources/ru/parsentev/models/User.hbm.xml" />
         <option value="$PROJECT_DIR$/clinic-pet-web/src/test/java/ru/parsentev/store/HibernateStorageTest.java" />
-        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/Base.java" />
+        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/user/UserViewServlet.java" />
+        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/webapp/views/user/CreateUser.jsp" />
+        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/user/UserCreateServlet.java" />
+        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/User.java" />
+        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/role/RoleViewServlet.java" />
+        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/role/RoleUpdateServlet.java" />
+        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/role/RoleDeleteServlet.java" />
+        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/role/RoleCreateServlet.java" />
+        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/cache/PetCache.java" />
+        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/jdbc/JdbcStorage.java" />
+        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/hibernate/HibernateStorage.java" />
+        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/memory/MemoryStorage.java" />
+        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/UserStorage.java" />
+        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/UserCache.java" />
+        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/impl/memory/MemoryRoleStorageImpl.java" />
+        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/user/UserSearchServlet.java" />
+        <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/role/RoleSearchServlet.java" />
       </list>
     </option>
   </component>
@@ -488,81 +487,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jlessons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jlessons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: org.hibernate:hibernate-c3p0:4.3.9.Final" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hibernate-c3p0-4.3.9.Final.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blueprint" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jlessons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: org.hibernate:hibernate-c3p0:4.3.9.Final" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hibernate-c3p0-4.3.9.Final.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="internal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jlessons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: org.hibernate:hibernate-c3p0:4.3.9.Final" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hibernate-c3p0-4.3.9.Final.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="jlessons" />
@@ -797,6 +726,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jlessons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-courses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clinic-pet-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -895,6 +854,132 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="memory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jlessons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-courses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clinic-pet-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parsentev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdbc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jlessons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-courses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clinic-pet-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parsentev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jlessons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-courses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clinic-pet-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parsentev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="servlets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -934,6 +1019,48 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="servlets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="role" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jlessons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-courses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clinic-pet-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parsentev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="servlets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pet" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1039,8 +1166,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1066,17 +1191,20 @@
       <recent name="org.mockito.Mockito" />
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\works\java-courses\clinic-pet-web\src\main\webapp\js" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="ru.parsentev.servlets.pet" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\works\java-courses\clinic-pet-web\src\main\webapp\css" />
       <recent name="C:\works\java-courses\clinic-pet-web\src\main\webapp\js" />
       <recent name="C:\works\java-courses\clinic-pet-web\src\main\webapp\img" />
       <recent name="C:\works\java-courses\clinic-pet-web\src\main\webapp" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ru.parsentev.store" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.parsentev.servlets.pet" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\works\java-courses\clinic-pet-web\src\main\webapp\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1091,11 +1219,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HibernateStorageTest.testCRUD">
-    <configuration default="false" name="JdbcStorageTest.testEdit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Tomcat Server.Server">
+    <configuration default="false" name="JdbcUserStorageImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="ru.parsentev.store.*" />
+          <option name="PATTERN" value="ru.parsentev.store.impl.hibernate.jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1103,33 +1231,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ru.parsentev.store" />
-      <option name="MAIN_CLASS_NAME" value="ru.parsentev.store.JdbcStorageTest" />
-      <option name="METHOD_NAME" value="testEdit" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="JdbcStorageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ru.parsentev.store.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="cpw" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ru.parsentev.store" />
-      <option name="MAIN_CLASS_NAME" value="ru.parsentev.store.JdbcStorageTest" />
+      <option name="MAIN_CLASS_NAME" value="ru.parsentev.store.JdbcUserStorageImplTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1144,10 +1246,10 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="HibernateStorageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="HibernateUserStorageImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="ru.parsentev.store.*" />
+          <option name="PATTERN" value="ru.parsentev.store.impl.hibernate.jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1155,7 +1257,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ru.parsentev.store" />
-      <option name="MAIN_CLASS_NAME" value="ru.parsentev.store.HibernateStorageTest" />
+      <option name="MAIN_CLASS_NAME" value="ru.parsentev.store.HibernateUserStorageImplTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1170,10 +1272,10 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="HibernateStorageTest.testCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="HibernateUserStorageImplTest.testCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="ru.parsentev.store.*" />
+          <option name="PATTERN" value="ru.parsentev.store.impl.hibernate.jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1181,7 +1283,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ru.parsentev.store" />
-      <option name="MAIN_CLASS_NAME" value="ru.parsentev.store.HibernateStorageTest" />
+      <option name="MAIN_CLASS_NAME" value="ru.parsentev.store.HibernateUserStorageImplTest" />
       <option name="METHOD_NAME" value="testCreate" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1196,10 +1298,10 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="HibernateStorageTest.testCRUD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="HibernateUserStorageImplTest.testCRUD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="ru.parsentev.store.*" />
+          <option name="PATTERN" value="ru.parsentev.store.impl.hibernate.jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1207,8 +1309,34 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ru.parsentev.store" />
-      <option name="MAIN_CLASS_NAME" value="ru.parsentev.store.HibernateStorageTest" />
+      <option name="MAIN_CLASS_NAME" value="ru.parsentev.store.HibernateUserStorageImplTest" />
       <option name="METHOD_NAME" value="testCRUD" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="HibernateUserStorageImplTest.testCreateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ru.parsentev.store.impl.hibernate.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="cpw" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ru.parsentev.store" />
+      <option name="MAIN_CLASS_NAME" value="ru.parsentev.store.HibernateUserStorageImplTest" />
+      <option name="METHOD_NAME" value="testCreateUser" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1750,7 +1878,7 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration default="false" name="Server" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.79" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+    <configuration default="false" name="Server" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.0.M22" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
       <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
       <option name="UPDATING_POLICY" value="hot-swap-classes" />
       <deployment>
@@ -1825,19 +1953,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Server" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.JdbcStorageTest.testEdit" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.JdbcStorageTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.HibernateStorageTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.HibernateStorageTest.testCreate" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.HibernateStorageTest.testCRUD" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.JdbcUserStorageImplTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.HibernateUserStorageImplTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.HibernateUserStorageImplTest.testCreate" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.HibernateUserStorageImplTest.testCRUD" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.HibernateUserStorageImplTest.testCreateUser" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.HibernateStorageTest.testCRUD" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.HibernateStorageTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.HibernateStorageTest.testCreate" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.JdbcStorageTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.JdbcStorageTest.testEdit" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.HibernateUserStorageImplTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.HibernateUserStorageImplTest.testCreateUser" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.HibernateUserStorageImplTest.testCRUD" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.HibernateUserStorageImplTest.testCreate" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.JdbcUserStorageImplTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1861,7 +1989,10 @@
       <workItem from="1502274888200" duration="79000" />
       <workItem from="1502275520403" duration="10973000" />
       <workItem from="1502305970925" duration="3101000" />
-      <workItem from="1502359756158" duration="1788000" />
+      <workItem from="1502359756158" duration="6924000" />
+      <workItem from="1502611906237" duration="508000" />
+      <workItem from="1502644108407" duration="213000" />
+      <workItem from="1502907210481" duration="4845000" />
     </task>
     <task id="LOCAL-00001" summary="hw #14 done">
       <created>1500996172200</created>
@@ -1926,43 +2057,50 @@
       <option name="project" value="LOCAL" />
       <updated>1502287379761</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="hw 20 done">
+      <created>1502361651941</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1502361651941</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HibernateStorageTest_testCRUD - 2017.08.10 at 13h 22m 45s.xml">
-      <configuration name="HibernateStorageTest.testCRUD" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HibernateStorageTest_testCRUD - 2017.08.10 at 13h 24m 27s.xml">
-      <configuration name="HibernateStorageTest.testCRUD" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HibernateStorageTest_testCRUD - 2017.08.10 at 13h 27m 46s.xml">
-      <configuration name="HibernateStorageTest.testCRUD" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HibernateStorageTest_testCRUD - 2017.08.10 at 13h 28m 15s.xml">
-      <configuration name="HibernateStorageTest.testCRUD" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HibernateStorageTest_testCRUD - 2017.08.10 at 13h 28m 48s.xml">
-      <configuration name="HibernateStorageTest.testCRUD" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HibernateStorageTest_testCRUD - 2017.08.10 at 13h 29m 21s.xml">
-      <configuration name="HibernateStorageTest.testCRUD" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HibernateStorageTest_testCRUD - 2017.08.10 at 13h 29m 56s.xml">
-      <configuration name="HibernateStorageTest.testCRUD" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HibernateStorageTest_testCRUD - 2017.08.10 at 13h 30m 48s.xml">
-      <configuration name="HibernateStorageTest.testCRUD" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HibernateStorageTest_testCRUD - 2017.08.10 at 13h 31m 29s.xml">
-      <configuration name="HibernateStorageTest.testCRUD" configurationId="JUnit" />
+    <history-entry file="HibernateStorageTest - 2017.08.13 at 11h 19m 02s.xml">
+      <configuration name="HibernateStorageTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="HibernateStorageTest_testCRUD - 2017.08.10 at 13h 33m 50s.xml">
       <configuration name="HibernateStorageTest.testCRUD" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HibernateStorageTest_testCreateUser - 2017.08.10 at 15h 09m 27s.xml">
+      <configuration name="HibernateStorageTest.testCreateUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HibernateStorageTest_testCreateUser - 2017.08.10 at 22h 48m 39s.xml">
+      <configuration name="HibernateStorageTest.testCreateUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HibernateStorageTest_testCreateUser - 2017.08.10 at 22h 53m 00s.xml">
+      <configuration name="HibernateStorageTest.testCreateUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HibernateStorageTest_testCreateUser - 2017.08.10 at 22h 53m 42s.xml">
+      <configuration name="HibernateStorageTest.testCreateUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HibernateStorageTest_testCreateUser - 2017.08.10 at 22h 54m 14s.xml">
+      <configuration name="HibernateStorageTest.testCreateUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HibernateStorageTest_testCreateUser - 2017.08.10 at 22h 54m 46s.xml">
+      <configuration name="HibernateStorageTest.testCreateUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HibernateStorageTest_testCreateUser - 2017.08.10 at 22h 56m 39s.xml">
+      <configuration name="HibernateStorageTest.testCreateUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HibernateStorageTest_testCreateUser - 2017.08.13 at 11h 18m 27s.xml">
+      <configuration name="HibernateStorageTest.testCreateUser" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78449000" />
+    <option name="totallyTimeSpent" value="89151000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1998,11 +2136,12 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3877841" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.72159094" sideWeight="0.49676898" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54829544" sideWeight="0.49676898" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16335227" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28594506" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30048466" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2011,7 +2150,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2040,11 +2178,11 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3877841" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.72159094" sideWeight="0.49676898" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54829544" sideWeight="0.49676898" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16335227" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27786753" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30048466" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -2093,7 +2231,8 @@
     <MESSAGE value="#19 jdbc&#10;&#10;(cherry picked from commit a3fd1e2)" />
     <MESSAGE value="hw 19 done" />
     <MESSAGE value="#20 Hibernate&#10;&#10;(cherry picked from commit cb92774)" />
-    <option name="LAST_COMMIT_MESSAGE" value="#20 Hibernate&#10;&#10;(cherry picked from commit cb92774)" />
+    <MESSAGE value="hw 20 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw 20 done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2106,218 +2245,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/webapp/img/btn_sign_up_on.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/webapp/js/jquery-3.2.1.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/webapp/index1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/pet/PetEditServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="33" column="51" lean-forward="false" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-764">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/webapp/js/select.js" />
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/webapp/css/select-style.css" />
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/webapp/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="100" column="18" lean-forward="true" selection-start-line="100" selection-start-column="18" selection-end-line="100" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/webapp/js/jquery.formstyler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="22" column="14" lean-forward="false" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/webapp/js/core.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="25" lean-forward="false" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/webapp/js/validation-utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/webapp/js/pet-utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/webapp/css/jquery.formstyler.theme.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="425" column="43" lean-forward="false" selection-start-line="425" selection-start-column="43" selection-end-line="425" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/Storage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/PetCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/MemoryStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/UserCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/user/UserCreateServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/se/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="35" column="35" lean-forward="false" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/pet/PetCreateJsonServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/sql/ResultSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="175" column="12" lean-forward="false" selection-start-line="175" selection-start-column="12" selection-end-line="175" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/user/UserViewServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/service/Settings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/user/UserEditServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="34" column="24" lean-forward="false" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar!/javax/servlet/RequestDispatcher.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar!/javax/servlet/RequestDispatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/pet/PetViewServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/test/java/ru/parsentev/servlets/pet/PetCRUDServletTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="97" column="60" lean-forward="false" selection-start-line="97" selection-start-column="60" selection-end-line="97" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/sql/Statement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9405">
           <caret line="650" column="8" lean-forward="false" selection-start-line="650" selection-start-column="8" selection-end-line="650" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#65869#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2339,14 +2270,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1245">
           <caret line="83" column="36" lean-forward="false" selection-start-line="83" selection-start-column="36" selection-end-line="83" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/test/java/ru/parsentev/store/JdbcStorageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="28" column="34" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="28" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -2357,24 +2280,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="48" lean-forward="false" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/sql/DriverManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="511">
@@ -2382,69 +2287,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/JdbcStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-530">
-          <caret line="29" column="40" lean-forward="false" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-          <folding>
-            <marker date="1502282701000" expanded="true" signature="1026:1046" ph="SELECT * FRO... client" />
-            <marker date="1502282701000" expanded="true" signature="1865:1980" ph="INSERT INTO client... " />
-            <marker date="1502282701000" expanded="true" signature="2934:2960" ph="UPDATE clien... " />
-            <marker date="1502282701000" expanded="true" signature="2934:3057" ph="UPDATE clien... " />
-            <marker date="1502282701000" expanded="true" signature="3724:3757" ph="DELETE FROM " />
-            <marker date="1502282701000" expanded="true" signature="3735:3757" ph="INSERT INTO client... " />
-            <marker date="1502282701000" expanded="true" signature="4149:4183" ph="SELECT * FRO... client" />
-            <marker date="1502282701000" expanded="true" signature="5196:5234" ph="SELECT * FRO... client" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/resources/ru/parsentev/models/Role.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/resources/ru/parsentev/models/User.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/resources/ru/parsentev/models/Message.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding>
-            <element signature="e#279#280#0" expanded="false" />
-            <element signature="e#297#298#0" expanded="false" />
-            <element signature="e#332#333#0" expanded="false" />
-            <element signature="e#355#356#0" expanded="false" />
-            <element signature="e#383#384#0" expanded="false" />
-            <element signature="e#401#402#0" expanded="false" />
-            <element signature="e#438#439#0" expanded="false" />
-            <element signature="e#461#462#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/4.3.9.Final/hibernate-core-4.3.9.Final.jar!/org/hibernate/Session.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="78" column="9" lean-forward="false" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2452,25 +2298,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/HibernateStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="54" column="24" lean-forward="false" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2478,17 +2305,412 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/Client.java" />
+    <entry file="uml://DATABASE/0183a58d-25c5-444e-8c76-d5106efddb3a.SCHEMA:18_lesson">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>0183a58d-25c5-444e-8c76-d5106efddb3a.SCHEMA:18_lesson</OriginalElement>
+          <nodes>
+            <node x="103.0" y="0.0">0183a58d-25c5-444e-8c76-d5106efddb3a.TABLE:18_lesson.roles</node>
+            <node x="176.0" y="382.0">0183a58d-25c5-444e-8c76-d5106efddb3a.TABLE:18_lesson.pet</node>
+            <node x="43.0" y="125.0">0183a58d-25c5-444e-8c76-d5106efddb3a.TABLE:18_lesson.user</node>
+            <node x="0.0" y="393.0">0183a58d-25c5-444e-8c76-d5106efddb3a.TABLE:18_lesson.messages</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="0183a58d-25c5-444e-8c76-d5106efddb3a.TABLE:18_lesson.messages" target="0183a58d-25c5-444e-8c76-d5106efddb3a.TABLE:18_lesson.user">
+              <point x="0.0" y="-48.5" />
+              <point x="78.0" y="357.0" />
+              <point x="107.0" y="357.0" />
+              <point x="-64.0" y="103.5" />
+            </edge>
+            <edge source="0183a58d-25c5-444e-8c76-d5106efddb3a.TABLE:18_lesson.user" target="0183a58d-25c5-444e-8c76-d5106efddb3a.TABLE:18_lesson.roles">
+              <point x="0.0" y="-103.5" />
+              <point x="0.0" y="37.5" />
+            </edge>
+            <edge source="0183a58d-25c5-444e-8c76-d5106efddb3a.TABLE:18_lesson.pet" target="0183a58d-25c5-444e-8c76-d5106efddb3a.TABLE:18_lesson.user">
+              <point x="0.0" y="-59.5" />
+              <point x="264.0" y="357.0" />
+              <point x="235.0" y="357.0" />
+              <point x="64.0" y="103.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="151.0" y="153.0" />
+          <SelectedNodes>
+            <node>0183a58d-25c5-444e-8c76-d5106efddb3a.TABLE:18_lesson.messages</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Columns</Category>
+            <Category>Key columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/javax/management/relation/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="54" column="13" lean-forward="false" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="62" lean-forward="false" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/user/UserEditServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="45" column="6" lean-forward="false" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/test/java/ru/parsentev/store/JdbcUserStorageImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/resources/ru/parsentev/models/Role.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/resources/ru/parsentev/models/User.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="54" lean-forward="false" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/resources/ru/parsentev/models/Message.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/test/java/ru/parsentev/store/HibernateUserStorageImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="71" column="50" lean-forward="false" selection-start-line="71" selection-start-column="48" selection-end-line="71" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/test/java/ru/parsentev/store/HibernateStorageTest.java">
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/PetForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/user/UserViewServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="" y="">com</node>
+            <node x="" y="">netscape</node>
+            <node x="" y="">junit</node>
+            <node x="" y="">oracle</node>
+            <node x="" y="">ru</node>
+            <node x="" y="">org</node>
+            <node x="" y="">antlr</node>
+            <node x="" y="">resources</node>
+            <node x="" y="">Class50</node>
+            <node x="" y="">toolbarButtonGraphics</node>
+            <node x="" y="">sun</node>
+            <node x="" y="">lombok</node>
+            <node x="" y="">META-INF</node>
+            <node x="" y="">jdk</node>
+            <node x="" y="">apple</node>
+            <node x="" y="">license</node>
+            <node x="" y="">java</node>
+            <node x="" y="">javax</node>
+            <node x="" y="">javafx</node>
+            <node x="" y="">OSGI-INF</node>
+            <node x="" y="">javassist</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.7721739130434783" x="257.5" y="277.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/ru.parsentev">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>ru.parsentev</OriginalElement>
+          <nodes>
+            <node x="" y="">ru.parsentev.models</node>
+            <node x="" y="">ru.parsentev.servlets</node>
+            <node x="" y="">ru.parsentev.store</node>
+            <node x="" y="">ru.parsentev.service</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="157.0" y="124.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/webapp/views/user/UserView.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="65" lean-forward="true" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="20" column="59" lean-forward="true" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/webapp/views/user/CreateUser.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="45" column="13" lean-forward="false" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/models/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/role/RoleViewServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="48" lean-forward="false" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/role/RoleUpdateServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="50" lean-forward="false" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/role/RoleDeleteServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="50" lean-forward="false" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/role/RoleCreateServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/user/UserCreateServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/PetCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/impl/jdbc/JdbcUserStorageImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <marker date="1503140710000" expanded="true" signature="1917:2032" ph="INSERT INTO client... " />
+            <marker date="1503140710000" expanded="true" signature="2986:3109" ph="UPDATE clien... " />
+            <marker date="1503140710000" expanded="true" signature="3776:3808" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/impl/hibernate/HibernateUserStorageImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/UserStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/impl/memory/MemoryUserStorageImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/UserCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/PetStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/RoleStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/RoleCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/impl/hibernate/HibernatePetStorageImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/impl/jdbc/JdbcPetStorageImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/impl/memory/MemoryPetStorageImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/impl/hibernate/HibernateRoleStorageImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="37" lean-forward="false" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/impl/jdbc/JdbcRoleStorageImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/store/impl/memory/MemoryRoleStorageImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/user/UserSearchServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/parsentev/servlets/role/RoleSearchServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="50" lean-forward="false" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2547,12 +2769,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>cpw</last-edited>
+          <last-edited>Web|cpw</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.39590445" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

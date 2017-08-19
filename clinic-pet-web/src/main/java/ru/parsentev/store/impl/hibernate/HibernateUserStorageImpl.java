@@ -1,4 +1,4 @@
-package ru.parsentev.store;
+package ru.parsentev.store.impl.hibernate;
 
 import org.hibernate.Query;
 import org.hibernate.Session;
@@ -6,6 +6,7 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 import ru.parsentev.models.User;
+import ru.parsentev.store.UserStorage;
 
 import java.util.Collection;
 
@@ -15,10 +16,10 @@ import java.util.Collection;
  * @author parsentev
  * @since 01.05.2015
  */
-public class HibernateStorage implements Storage {
+public class HibernateUserStorageImpl implements UserStorage {
     private final SessionFactory factory;
 
-    public HibernateStorage() {
+    public HibernateUserStorageImpl() {
         factory = new Configuration().configure().buildSessionFactory();
     }
 
@@ -64,7 +65,7 @@ public class HibernateStorage implements Storage {
         final Session session = factory.openSession();
         Transaction tx = session.beginTransaction();
         try {
-            session.delete(new User(id, null, null, null, null, null, null));
+            session.delete(get(id));
         } finally {
             tx.commit();
             session.close();

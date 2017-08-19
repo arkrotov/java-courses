@@ -23,7 +23,8 @@ public class UserCreateServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        this.USER_CACHE.add(
+
+          this.USER_CACHE.add(
                 new User(
                         this.ids.incrementAndGet(),
                         req.getParameter("login"),

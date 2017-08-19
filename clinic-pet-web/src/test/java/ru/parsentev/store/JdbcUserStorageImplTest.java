@@ -2,6 +2,7 @@ package ru.parsentev.store;
 
 import org.junit.Test;
 import ru.parsentev.models.User;
+import ru.parsentev.store.impl.jdbc.JdbcUserStorageImpl;
 
 import static org.junit.Assert.*;
 
@@ -11,22 +12,22 @@ import static org.junit.Assert.*;
  * @author parsentev
  * @since 29.04.2015
  */
-public class JdbcStorageTest {
+public class JdbcUserStorageImplTest {
 
     private static int id;
 
     @Test
     public void testAddAndGet() throws Exception {
 
-        final JdbcStorage storage = new JdbcStorage();
+        final JdbcUserStorageImpl storage = new JdbcUserStorageImpl();
 
-        id = storage.add(new User(-1,
+        id = storage.add(new User(
                 "login",
                 "name",
                 "secondname",
                 "male",
                 "+7(999)123-12-12",
-                "test@test.com"));
+                "test@test.com", null, null));
 
         final User user = storage.get(id);
         assertEquals(id, user.getId());
@@ -36,7 +37,7 @@ public class JdbcStorageTest {
     @Test
     public void testEdit() throws Exception {
 
-        final JdbcStorage storage = new JdbcStorage();
+        final JdbcUserStorageImpl storage = new JdbcUserStorageImpl();
 
         User userOne = storage.get(id);
         User userTwo = storage.get(id);
@@ -54,7 +55,7 @@ public class JdbcStorageTest {
     @Test
     public void testDelete() throws Exception {
 
-        final JdbcStorage storage = new JdbcStorage();
+        final JdbcUserStorageImpl storage = new JdbcUserStorageImpl();
         storage.delete(id);
 
         try {

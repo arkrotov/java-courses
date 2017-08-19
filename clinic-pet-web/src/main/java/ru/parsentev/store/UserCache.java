@@ -1,20 +1,20 @@
 package ru.parsentev.store;
 
 import ru.parsentev.models.User;
+import ru.parsentev.store.impl.hibernate.HibernateUserStorageImpl;
 
 import java.util.Collection;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * TODO: comment
  * @author parsentev
  * @since 18.04.2015
  */
-public class UserCache implements Storage {
+public class UserCache implements UserStorage {
+
 	private static final UserCache INSTANCE = new UserCache();
 
-	private final Storage storage = new MemoryStorage();
+	private final UserStorage userStorage = new HibernateUserStorageImpl();
 
 	public static UserCache getInstance() {
 		return INSTANCE;
@@ -22,41 +22,41 @@ public class UserCache implements Storage {
 
 	@Override
 	public Collection<User> values() {
-		return INSTANCE.values();
+		return userStorage.values();
 	}
 
 	@Override
 	public int add(final User user) {
-		return this.storage.add(user);
+		return this.userStorage.add(user);
 	}
 
 	@Override
 	public void edit(final User user) {
-		this.storage.edit(user);
+		this.userStorage.edit(user);
 	}
 
 	@Override
 	public void delete(final int id) {
-		this.storage.delete(id);
+		this.userStorage.delete(id);
 	}
 
 	@Override
 	public User get(final int id) {
-		return this.storage.get(id);
+		return this.userStorage.get(id);
 	}
 
 	@Override
 	public User findByLogin(final String login) {
-		return this.storage.findByLogin(login);
+		return this.userStorage.findByLogin(login);
 	}
 
 	@Override
 	public int generateId() {
-		return this.storage.generateId();
+		return this.userStorage.generateId();
 	}
 
 	@Override
 	public void close() {
-		this.storage.close();
+		this.userStorage.close();
 	}
 }

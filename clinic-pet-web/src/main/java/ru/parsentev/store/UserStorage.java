@@ -9,7 +9,7 @@ import java.util.Collection;
  * @author parsentev
  * @since 29.04.2015
  */
-public interface Storage {
+public interface UserStorage {
 
 	public Collection<User> values();
 

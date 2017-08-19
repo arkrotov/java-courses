@@ -15,6 +15,30 @@
 			</td>
 		</tr>
 		<tr>
+			<td align="right" >First name : </td>
+			<td>
+				<input type="text" name="email">
+			</td>
+		</tr>
+		<tr>
+			<td align="right" >Last name : </td>
+			<td>
+				<input type="text" name="email">
+			</td>
+		</tr>
+		<tr>
+			<td align="right" >Sex : </td>
+			<td>
+				<input type="text" name="email">
+			</td>
+		</tr>
+		<tr>
+			<td align="right" >Phone : </td>
+			<td>
+				<input type="text" name="email">
+			</td>
+		</tr>
+		<tr>
 			<td align="right" >Email : </td>
 			<td>
 				<input type="text" name="email">

@@ -1,6 +1,5 @@
 package ru.parsentev.servlets.user;
 
-import ru.parsentev.models.User;
 import ru.parsentev.store.UserCache;
 
 import javax.servlet.RequestDispatcher;
@@ -31,7 +30,7 @@ public class UserEditServlet extends HttpServlet {
 
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		this.USER_CACHE.edit(
+		/*this.USER_CACHE.edit(
 				new User(
 						this.ids.incrementAndGet(),
 						req.getParameter("login"),
@@ -43,5 +42,6 @@ public class UserEditServlet extends HttpServlet {
 				)
 		);
 		resp.sendRedirect(String.format("%s%s", req.getContextPath(), "/user/view"));
+	*/
 	}
 }
