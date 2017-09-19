@@ -1,22 +1,15 @@
 package ru.parsentev.models;
 
-import lombok.Data;
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
-/**
- * TODO: comment
- * @author parsentev
- * @since 16.05.2015
- */
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+public class Message {
 
-@Getter
-@Setter
-public class Message extends Base {
+	private int id;
 	private User user;
 	private String text;
 
-	public Message() {
-	}
 }

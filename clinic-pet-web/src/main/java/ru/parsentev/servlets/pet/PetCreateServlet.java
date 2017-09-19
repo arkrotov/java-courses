@@ -1,8 +1,9 @@
 package ru.parsentev.servlets.pet;
 
 import ru.lessons.lesson_6.Animal;
-import ru.parsentev.models.Dog;
-import ru.parsentev.store.PetCache;
+import ru.parsentev.models.Pet;
+import ru.parsentev.service.PetService;
+import ru.parsentev.service.PetServiceImpl;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -14,12 +15,12 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class PetCreateServlet extends HttpServlet {
 
     private final AtomicInteger ids = new AtomicInteger();
-    private final PetCache PET_CACHE = PetCache.getInstance();
+    private final PetService PET_CACHE = PetServiceImpl.getInstance();
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        this.PET_CACHE.add(
-                new Dog(
+      /*  this.PET_CACHE.add(
+                new Pet(
                         new Animal(
                                 PET_CACHE.generateId(),
                                 req.getParameter("name"),
@@ -29,7 +30,7 @@ public class PetCreateServlet extends HttpServlet {
                         )
                 )
         );
-        resp.sendRedirect(String.format("%s%s", req.getContextPath(), "/pet/view"));
+        resp.sendRedirect(String.format("%s%s", req.getContextPath(), "/pet/view"));*/
     }
 
 }

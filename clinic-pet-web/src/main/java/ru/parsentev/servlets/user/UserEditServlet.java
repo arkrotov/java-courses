@@ -1,6 +1,6 @@
 package ru.parsentev.servlets.user;
 
-import ru.parsentev.store.UserCache;
+import ru.parsentev.service.UserServiceImpl;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -19,7 +19,7 @@ public class UserEditServlet extends HttpServlet {
 
 	final AtomicInteger ids = new AtomicInteger();
 
-	private final UserCache USER_CACHE = UserCache.getInstance();
+	private final UserServiceImpl USER_CACHE = UserServiceImpl.getInstance();
 
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

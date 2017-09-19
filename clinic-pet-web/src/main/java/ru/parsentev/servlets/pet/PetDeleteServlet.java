@@ -1,6 +1,7 @@
 package ru.parsentev.servlets.pet;
 
-import ru.parsentev.store.PetCache;
+import ru.parsentev.service.PetService;
+import ru.parsentev.service.PetServiceImpl;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -10,7 +11,7 @@ import java.io.IOException;
 
 public class PetDeleteServlet extends HttpServlet {
 
-    private final PetCache PET_CACHE = PetCache.getInstance();
+    private final PetService PET_CACHE = PetServiceImpl.getInstance();
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

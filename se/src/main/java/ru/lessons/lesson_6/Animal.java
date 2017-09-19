@@ -1,10 +1,5 @@
 package ru.lessons.lesson_6;
 
-/**
- * TODO: comment
- * @author parsentev
- * @since 07.04.2015
- */
 public class Animal implements Pet {
 
 	private final int id;
@@ -30,10 +25,6 @@ public class Animal implements Pet {
 
 	public String getOwner() {
 		return owner;
-	}
-
-	public Boolean isMale() {
-		return sex;
 	}
 
 	@Override

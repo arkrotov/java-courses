@@ -1,7 +1,7 @@
 package ru.parsentev.servlets.user;
 
 import ru.parsentev.models.User;
-import ru.parsentev.store.UserCache;
+import ru.parsentev.service.UserServiceImpl;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -19,12 +19,12 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class UserCreateServlet extends HttpServlet {
 
     private final AtomicInteger ids = new AtomicInteger();
-    private final UserCache USER_CACHE = UserCache.getInstance();
+    private final UserServiceImpl USER_CACHE = UserServiceImpl.getInstance();
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-          this.USER_CACHE.add(
+        /*  this.USER_CACHE.add(
                 new User(
                         this.ids.incrementAndGet(),
                         req.getParameter("login"),
@@ -35,6 +35,6 @@ public class UserCreateServlet extends HttpServlet {
                         req.getParameter("email")
                 )
         );
-        resp.sendRedirect(String.format("%s%s", req.getContextPath(), "/user/view"));
+        resp.sendRedirect(String.format("%s%s", req.getContextPath(), "/user/view"));*/
     }
 }

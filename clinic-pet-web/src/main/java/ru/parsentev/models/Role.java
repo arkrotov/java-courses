@@ -1,24 +1,15 @@
 package ru.parsentev.models;
 
 
-import lombok.Data;
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
-/**
- * TODO: comment
- * @author parsentev
- * @since 06.05.2015
- */
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+public class Role {
 
-
-@Getter
-@Setter
-public class Role extends Base {
+	private int id;
 	private String name;
-
-	public Role() {
-	}
 
 }

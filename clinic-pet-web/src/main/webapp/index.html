@@ -1,52 +1,34 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta name="keywords"
-          content="web design, website development, web application development, print design, database development, ecommerce websites, search engine optimization, packaging design"/>
-    <meta name="description" content="Tutorial demo showing how to add jquery animated validation to any form"/>
-    <meta name="robots" content="all"/>
-    <title>Registration of pets</title>
-    <script type="text/javascript" src="js/jquery-3.2.1.min.js" defer></script>
-    <script type="text/JavaScript" src="js/validation-utils.js" defer></script>
-    <script type="text/JavaScript" src="js/jquery.formstyler.min.js" defer></script>
-    <script type="text/javascript" src="js/core.js" defer></script>
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
-    <link rel="stylesheet" type="text/css" href="css/jquery.formstyler.css"/>
-    <link rel="stylesheet" type="text/css" href="css/jquery.formstyler.theme.css"/>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html><head>
+    <title>table</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=Windows-1251">
+
 </head>
+
 <body>
 
-<div class="wrap">
-    <h2 class="text-center">Registration of pets</h2>
+<table border="1" width="300" height="200" cellpadding="0" cellspacing="0" style=" table-layout:fixed; float:left; margin:0 25px 0 0;">
+    <tr><td>
 
-    <form id="form-sign-up" class="styled" action="" method="post">
-        <fieldset>
-            <h3>Register Now!</h3>
-            <ol>
-                <li class="form-row"><label>Name:</label>
-                    <input name="name" id="name" type="text" class="text-input required"/>
-                </li>
-                <li class="form-row"><label>Owner:</label>
-                    <input name="owner" type="text" id="owner" class="text-input required"/>
-                </li>
-                <li class="form-row"><label>Sex:</label>
-                    <div><select name="sex" id="sex">
-                        <option value="">None</option>
-                        <option value="Male">Male</option>
-                        <option value="Female">Female</option>
-                    </select></div>
-                </li>
-                <li class="button-row">
-                    <button type="button" class="btn-submit">CREATE</button>
-                </li>
-            </ol>
-        </fieldset>
-    </form>
-</div>
+        <?forEach items="${pets}" var="pet" varStatus="status">
+            <>
+        первая
+    </td></tr></table>
+<table border="1" cellpadding="0" cellspacing="0">
+    <tr><td>
+        ........
+        <div>Несмотря на солнце, бьющее в окно, вставать не хотелось. Как-никак, вчера Илья отмечал большой праздник - собственный день рождения. Шестнадцать лет - шутка ли! Фактически совершеннолетие. Куролесили весь день и добрый кусок ночи, благо отец в честь знаменательной даты подкинул деньжат и благосклонно разрешил вернуться позже обычного. Так что они с Сашкой, Витьком, Вовчиком и Серегой, которого все уважительно называли Сегуном, пустились в большой вояж по кафешкам и дискотекам. Следовало торопиться - от летних каникул осталось всего две недели, а там снова в школу! Остался один только одиннадцатый класс, а там надо будет уже и во взрослую жизнь вступать…</div>
 
-<div id="pets" class="center">
+        <div>Впрочем, о будущем Илья пока серьезно не задумывался - он предпочитал жить сегодняшним днем. А на сегодня он запланировал продолжение вчерашней гулянки.</div>
 
-</div>
+        <div>Вот только еще не решил - брать ли с собой обычную компанию, или на сей раз обойтись узким кругом? Узкий круг заключался в Ритке из параллельного, к которой Илья уже полгода подбивал клинья. Хотя сейчас все равно еще слишком рано - Сашка, Витек, Вовчик и Серега наверняка еще спят, а Ритка вообще раньше полудня никогда не поднимается.</div>
+
+        <div>Взгляд Ильи уперся в рыцарский шлем, украшающий принтер. Он горделиво усмехнулся - такого шлема не было ни у кого. Сам сделал, до последнего шовчика! Деревянный, конечно, хоть и раскрашен под сталь… Ну а у кого на ролевых игрищах есть настоящие? Только у Тольки-историка - он в музее подрабатывает, вот и одалживает иногда в запасниках кой-чего. Обычно ограничивается старым попорченным шлемом, но однажды притащил настоящий рыцарский нагрудник! Всей тусовкой мерили и долго потом удивлялись, как рыцари умудряются таскать на себе столько железа?</div>
+
+        <div>Вообще, Илья считался знатным толкинистом. Чай, с шестого класса участвует, каждое лето выезжает на очередную игру! Сначала его всегда хоббитом назначали - за малый рост и кудрявость, потом он здорово раздался в плечах и его перевели в гномы… Помнится, под бородищей из пакли было ужасно жарко. А этим летом торжественно посвятили в рыцари - за последний год Илья порядком вытянулся и за гнома сойти не мог даже издалека.</div>
+        <div>Академия Деорга
+            Александр Рудазов</div>
+    </td></tr></table>
 </body>
 </html>

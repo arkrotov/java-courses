@@ -1,8 +1,9 @@
 package ru.parsentev.servlets.pet;
 
 import ru.lessons.lesson_6.Animal;
-import ru.parsentev.models.Dog;
-import ru.parsentev.store.PetCache;
+import ru.parsentev.models.Pet;
+import ru.parsentev.service.PetService;
+import ru.parsentev.service.PetServiceImpl;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -13,7 +14,7 @@ import java.io.IOException;
 
 public class PetEditServlet extends HttpServlet {
 
-    private final PetCache PET_CACHE = PetCache.getInstance();
+    private final PetService PET_CACHE = PetServiceImpl.getInstance();
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -25,8 +26,8 @@ public class PetEditServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        this.PET_CACHE.edit(
-                new Dog(
+         //this.PET_CACHE.edit(
+                /*new Pet(
                         new Animal(
                                 Integer.parseInt(req.getParameter("id")),
                                 req.getParameter("name"),
@@ -36,6 +37,6 @@ public class PetEditServlet extends HttpServlet {
                         )
                 )
         );
-        resp.sendRedirect(String.format("%s%s", req.getContextPath(), "/pet/view"));
+        resp.sendRedirect(String.format("%s%s", req.getContextPath(), "/pet/view"));*/
     }
 }
