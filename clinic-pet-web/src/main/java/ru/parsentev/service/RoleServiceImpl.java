@@ -1,5 +1,7 @@
 package ru.parsentev.service;
 
+import ru.parsentev.dao.RoleDao;
+import ru.parsentev.dao.hibernate.HibernateRoleDaoImpl;
 import ru.parsentev.dao.hibernate.HibernateUserDaoImpl;
 import ru.parsentev.models.Role;
 import ru.parsentev.models.User;
@@ -10,25 +12,25 @@ public class RoleServiceImpl implements RoleService {
 
     private static final RoleServiceImpl INSTANCE = new RoleServiceImpl();
 
-    private final UserService userService = new HibernateUserDaoImpl();
+    private final RoleDao roleDao = new HibernateRoleDaoImpl();
 
-    public static UserServiceImpl getInstance() {
+    public static RoleService getInstance() {
         return INSTANCE;
     }
 
     @Override
-    public Collection<User> values() {
-        return userService.values();
+    public Collection<Role> values() {
+        return roleDao.values();
     }
 
     @Override
-    public int add(Role user) {
-        return 0;
+    public int add(Role role) {
+        return roleDao.add(role);
     }
 
     @Override
-    public void edit(Role user) {
-
+    public void edit(Role role) {
+        return roleDao.
     }
 
     @Override
@@ -47,7 +49,7 @@ public class RoleServiceImpl implements RoleService {
     }
 
     @Override
-    public User get(final int id) {
+    public Role get(final int id) {
         return this.userService.get(id);
     }
 

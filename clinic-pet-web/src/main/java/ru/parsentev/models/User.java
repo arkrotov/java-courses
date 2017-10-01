@@ -7,6 +7,7 @@ import java.util.Set;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
+@Builder
 @ToString(callSuper = true)
 public class User {
 
