@@ -3,5 +3,4 @@
 /clinic-pet-web/target/
 /.idea/
 /lib/
-
-
+clinic-pet-web/log4j-application.log
