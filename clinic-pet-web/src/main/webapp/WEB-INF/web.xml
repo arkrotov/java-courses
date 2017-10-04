@@ -8,7 +8,7 @@
 
 	<servlet>
 		<servlet-name>UserViewServlet</servlet-name>
-		<servlet-class>ru.parsentev.servlets.user.UserViewServlet</servlet-class>
+		<servlet-class>ru.krotov.servlets.user.UserViewServlet</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
@@ -18,7 +18,7 @@
 
 	<servlet>
 		<servlet-name>UserCreateServlet</servlet-name>
-		<servlet-class>ru.parsentev.servlets.user.UserCreateServlet</servlet-class>
+		<servlet-class>ru.krotov.servlets.user.UserCreateServlet</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
@@ -28,7 +28,7 @@
 
 	<servlet>
 		<servlet-name>UserEditServlet</servlet-name>
-		<servlet-class>ru.parsentev.servlets.user.UserEditServlet</servlet-class>
+		<servlet-class>ru.krotov.servlets.user.UserEditServlet</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
@@ -38,7 +38,7 @@
 
 	<servlet>
 		<servlet-name>UserDeleteServlet</servlet-name>
-		<servlet-class>ru.parsentev.servlets.user.UserDeleteServlet</servlet-class>
+		<servlet-class>ru.krotov.servlets.user.UserDeleteServlet</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
@@ -48,7 +48,7 @@
 
 	<servlet>
 		<servlet-name>PetViewServlet</servlet-name>
-		<servlet-class>ru.parsentev.servlets.pet.PetViewServlet</servlet-class>
+		<servlet-class>ru.krotov.servlets.pet.PetViewServlet</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
@@ -58,7 +58,7 @@
 
 	<servlet>
 		<servlet-name>PetCreateServlet</servlet-name>
-		<servlet-class>ru.parsentev.servlets.pet.PetCreateServlet</servlet-class>
+		<servlet-class>ru.krotov.servlets.pet.PetCreateServlet</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
@@ -68,7 +68,7 @@
 
 	<servlet>
 		<servlet-name>PetEditServlet</servlet-name>
-		<servlet-class>ru.parsentev.servlets.pet.PetEditServlet</servlet-class>
+		<servlet-class>ru.krotov.servlets.pet.PetEditServlet</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
@@ -78,7 +78,7 @@
 
 	<servlet>
 		<servlet-name>PetDeleteServlet</servlet-name>
-		<servlet-class>ru.parsentev.servlets.pet.PetDeleteServlet</servlet-class>
+		<servlet-class>ru.krotov.servlets.pet.PetDeleteServlet</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
@@ -88,7 +88,7 @@
 
 	<servlet>
 		<servlet-name>PetSearchServlet</servlet-name>
-		<servlet-class>ru.parsentev.servlets.pet.PetSearchServlet</servlet-class>
+		<servlet-class>ru.krotov.servlets.pet.PetSearchServlet</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
@@ -98,7 +98,7 @@
 
 	<servlet>
 		<servlet-name>PetCreateJsonServlet</servlet-name>
-		<servlet-class>ru.parsentev.servlets.pet.PetCreateJsonServlet</servlet-class>
+		<servlet-class>ru.krotov.servlets.pet.PetCreateJsonServlet</servlet-class>
 	</servlet>
 
 	<servlet-mapping>

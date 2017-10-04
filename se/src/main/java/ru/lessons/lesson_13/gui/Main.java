@@ -15,7 +15,7 @@ import java.awt.event.WindowEvent;
 
 /**
  * TODO: comment
- * @author parsentev
+ * @author krotov
  * @since 08.04.2015
  */
 public class Main {

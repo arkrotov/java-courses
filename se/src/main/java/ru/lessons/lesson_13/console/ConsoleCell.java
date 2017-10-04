@@ -6,7 +6,7 @@ import java.io.PrintStream;
 
 /**
  * TODO: comment
- * @author parsentev
+ * @author krotov
  * @since 08.04.2015
  */
 public class ConsoleCell implements Cell<PrintStream> {

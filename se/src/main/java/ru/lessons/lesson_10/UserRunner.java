@@ -6,7 +6,7 @@ import java.util.Map;
 
 /**
  * TODO: comment
- * @author parsentev
+ * @author krotov
  * @since 06.04.2015
  */
 public class UserRunner {

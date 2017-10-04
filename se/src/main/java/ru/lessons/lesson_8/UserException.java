@@ -3,7 +3,7 @@ package ru.lessons.lesson_8;
 
 /**
  * TODO: comment
- * @author parsentev
+ * @author krotov
  * @since 31.03.2015
  */
 public class UserException extends Exception {

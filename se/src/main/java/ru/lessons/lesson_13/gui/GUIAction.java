@@ -12,7 +12,7 @@ import java.awt.event.MouseListener;
 
 /**
  * TODO: comment
- * @author parsentev
+ * @author krotov
  * @since 08.04.2015
  */
 public class GUIAction extends BaseAction implements ActionListener, MouseListener {

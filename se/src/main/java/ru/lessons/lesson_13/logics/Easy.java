@@ -5,7 +5,7 @@ import ru.lessons.lesson_13.SaperLogic;
 
 /**
  * TODO: comment
- * @author parsentev
+ * @author krotov
  * @since 08.04.2015
  */
 public class Easy implements SaperLogic {

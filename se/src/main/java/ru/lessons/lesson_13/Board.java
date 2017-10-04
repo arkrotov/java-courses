@@ -2,7 +2,7 @@ package ru.lessons.lesson_13;
 
 /**
  * Описывает поведения доски.
- * @author parsentev
+ * @author krotov
  * @since 08.04.2015
  */
 public interface Board {

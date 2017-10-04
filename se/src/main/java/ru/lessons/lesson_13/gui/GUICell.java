@@ -6,7 +6,7 @@ import java.awt.*;
 
 /**
  * TODO: comment
- * @author parsentev
+ * @author krotov
  * @since 08.04.2015
  */
 public class GUICell implements Cell<Graphics> {

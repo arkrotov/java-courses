@@ -3,7 +3,7 @@ package ru.lessons.lesson_10;
 
 /**
  * TODO: comment
- * @author parsentev
+ * @author krotov
  * @since 06.04.2015
  */
 public class User {
